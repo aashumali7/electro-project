@@ -43,3 +43,33 @@ Route::get('/store-directory',function(){
 Route::get('/terms-and-conditions',function(){
        return view('terms-and-conditions'); //terms-and-conditions.blade.php
 });
+Route::get('/home-v2',function(){
+       return view('home-v2'); //home-v2.blade.php
+});
+Route::get('/home-v3',function(){
+       return view('home-v3'); //home-v3.blade.php
+});
+Route::get('/home-v4',function(){
+       return view('home-v4'); //home-v4.blade.php
+});
+Route::get('/home-v4',function(){
+       return view('home-v4'); //home-v4.blade.php
+});
+Route::get('/home-v5',function(){
+       return view('home-v5'); //home-v5.blade.php
+});
+Route::get('/home-v6',function(){
+       return view('home-v6'); //home-v6.blade.php
+});
+Route::get('/home-v7',function(){
+       return view('home-v7'); //home-v7.blade.php
+});
+Route::get('/contact-v1',function(){
+       return view('contact-v1'); //contact-v1.blade.php
+});
+Route::get('/contact-v2',function(){
+       return view('contact-v2'); //contact-v2.blade.php
+});
+Route::get('/home-v3-fullcolor',function(){
+       return view('home-v3-fullcolor'); //home-v3-fullcolor.blade.php
+});

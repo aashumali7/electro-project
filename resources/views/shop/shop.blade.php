@@ -2,32 +2,32 @@
 <html lang="en">
     <head>
         <!-- Title -->
-        <title>Shop | Electro - Responsive Website Template</title>
+        <title>Shop Grid | Electro - Responsive Website Template</title>
 
         <!-- Required Meta Tags Always Come First -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
         <!-- Favicon -->
-        <link rel="shortcut icon" href="/favicon.png">
+        <link rel="shortcut icon" href="../../favicon.png">
 
         <!-- Google Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap" rel="stylesheet">
 
         <!-- CSS Implementing Plugins -->
-        <link rel="stylesheet" href="/assets/vendor/font-awesome/css/fontawesome-all.min.css">
-        <link rel="stylesheet" href="/assets/css/font-electro.css">
+        <link rel="stylesheet" href="../../assets/vendor/font-awesome/css/fontawesome-all.min.css">
+        <link rel="stylesheet" href="../../assets/css/font-electro.css">
         
-        <link rel="stylesheet" href="/assets/vendor/animate.css/animate.min.css">
-        <link rel="stylesheet" href="/assets/vendor/hs-megamenu/src/hs.megamenu.css">
-        <link rel="stylesheet" href="/assets/vendor/ion-rangeslider/css/ion.rangeSlider.css">
-        <link rel="stylesheet" href="/assets/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css">
-        <link rel="stylesheet" href="/assets/vendor/fancybox/jquery.fancybox.css">
-        <link rel="stylesheet" href="/assets/vendor/slick-carousel/slick/slick.css">
-        <link rel="stylesheet" href="/assets/vendor/bootstrap-select/dist/css/bootstrap-select.min.css">
+        <link rel="stylesheet" href="../../assets/vendor/animate.css/animate.min.css">
+        <link rel="stylesheet" href="../../assets/vendor/hs-megamenu/src/hs.megamenu.css">
+        <link rel="stylesheet" href="../../assets/vendor/ion-rangeslider/css/ion.rangeSlider.css">
+        <link rel="stylesheet" href="../../assets/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css">
+        <link rel="stylesheet" href="../../assets/vendor/fancybox/jquery.fancybox.css">
+        <link rel="stylesheet" href="../../assets/vendor/slick-carousel/slick/slick.css">
+        <link rel="stylesheet" href="../../assets/vendor/bootstrap-select/dist/css/bootstrap-select.min.css">
 
         <!-- CSS Electro Template -->
-        <link rel="stylesheet" href="/assets/css/theme.css">
+        <link rel="stylesheet" href="../../assets/css/theme.css">
     </head>
 
     <body>
@@ -799,7 +799,7 @@
                                                                     <!-- Nav Item - Mega Menu -->
                                                                     <div class="hs-mega-menu vmm-tfw u-header__sub-menu" aria-labelledby="basicMegaMenu">
                                                                         <div class="vmm-bg">
-                                                                            <img class="img-fluid" src="/assets/img/500X400/img1.png" alt="Image Description">
+                                                                            <img class="img-fluid" src="../../assets/img/500X400/img1.png" alt="Image Description">
                                                                         </div>
                                                                         <div class="row u-header__mega-menu-wrapper">
                                                                             <div class="col mb-3 mb-sm-0">
@@ -840,7 +840,7 @@
                                                                     <!-- Nav Item - Mega Menu -->
                                                                     <div class="hs-mega-menu vmm-tfw u-header__sub-menu" aria-labelledby="basicMegaMenu1">
                                                                         <div class="vmm-bg">
-                                                                            <img class="img-fluid" src="/assets/img/500X400/img4.png" alt="Image Description">
+                                                                            <img class="img-fluid" src="../../assets/img/500X400/img4.png" alt="Image Description">
                                                                         </div>
                                                                         <div class="row u-header__mega-menu-wrapper">
                                                                             <div class="col mb-3 mb-sm-0">
@@ -882,7 +882,7 @@
                                                                     <!-- Nav Item - Mega Menu -->
                                                                     <div class="hs-mega-menu vmm-tfw u-header__sub-menu vmm-bg-extended" aria-labelledby="basicMegaMenu2">
                                                                         <div class="vmm-bg">
-                                                                            <img class="img-fluid" src="/assets/img/500X400/img3.png" alt="Image Description">
+                                                                            <img class="img-fluid" src="../../assets/img/500X400/img3.png" alt="Image Description">
                                                                         </div>
                                                                         <div class="row u-header__mega-menu-wrapper">
                                                                             <div class="col mb-3 mb-sm-0">
@@ -922,7 +922,7 @@
                                                                     <!-- Nav Item - Mega Menu -->
                                                                     <div class="hs-mega-menu vmm-tfw u-header__sub-menu" aria-labelledby="basicMegaMenu3">
                                                                         <div class="vmm-bg">
-                                                                            <img class="img-fluid" src="/assets/img/500X400/img2.png" alt="Image Description">
+                                                                            <img class="img-fluid" src="../../assets/img/500X400/img2.png" alt="Image Description">
                                                                         </div>
                                                                         <div class="row u-header__mega-menu-wrapper">
                                                                             <div class="col mb-3 mb-sm-0">
@@ -962,7 +962,7 @@
                                                                     <!-- Nav Item - Mega Menu -->
                                                                     <div class="hs-mega-menu vmm-tfw u-header__sub-menu" aria-labelledby="basicMegaMenu4">
                                                                         <div class="vmm-bg">
-                                                                            <img class="img-fluid" src="/assets/img/500X400/img5.png" alt="Image Description">
+                                                                            <img class="img-fluid" src="../../assets/img/500X400/img5.png" alt="Image Description">
                                                                         </div>
                                                                         <div class="row u-header__mega-menu-wrapper">
                                                                             <div class="col mb-3 mb-sm-0">
@@ -1003,7 +1003,7 @@
                                                                     <!-- Nav Item - Mega Menu -->
                                                                     <div class="hs-mega-menu vmm-tfw u-header__sub-menu" aria-labelledby="basicMegaMenu5">
                                                                         <div class="vmm-bg">
-                                                                            <img class="img-fluid" src="/assets/img/500X400/img6.png" alt="Image Description">
+                                                                            <img class="img-fluid" src="../../assets/img/500X400/img6.png" alt="Image Description">
                                                                         </div>
                                                                         <div class="row u-header__mega-menu-wrapper">
                                                                             <div class="col mb-3 mb-sm-0">
@@ -1037,7 +1037,7 @@
                                                                     <!-- Nav Item - Mega Menu -->
                                                                     <div class="hs-mega-menu vmm-tfw u-header__sub-menu" aria-labelledby="basicMegaMenu3">
                                                                         <div class="vmm-bg">
-                                                                            <img class="img-fluid" src="/assets/img/500X400/img7.png" alt="Image Description">
+                                                                            <img class="img-fluid" src="../../assets/img/500X400/img7.png" alt="Image Description">
                                                                         </div>
                                                                         <div class="row u-header__mega-menu-wrapper">
                                                                             <div class="col mb-3 mb-sm-0">
@@ -1176,7 +1176,7 @@
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb mb-3 flex-nowrap flex-xl-wrap overflow-auto overflow-xl-visble">
                                 <li class="breadcrumb-item flex-shrink-0 flex-xl-shrink-1"><a href="../home/index.html">Home</a></li>
-                                <li class="breadcrumb-item flex-shrink-0 flex-xl-shrink-1 active" aria-current="page">Shop</li>
+                                <li class="breadcrumb-item flex-shrink-0 flex-xl-shrink-1 active" aria-current="page">Smart Phones & Tablets</li>
                             </ol>
                         </nav>
                     </div>
@@ -1188,13 +1188,12 @@
             <div class="container">
                 <div class="row mb-8">
                     <div class="d-none d-xl-block col-xl-3 col-wd-2gdot5">
-                        <div class="mb-6 border border-width-2 border-color-3 borders-radius-6">
+                        <div class="mb-8 border border-width-2 border-color-3 borders-radius-6">
                             <!-- List -->
-                            <ul id="sidebarNav" class="list-unstyled mb-0 sidebar-navbar view-all">
-                                <li><div class="dropdown-title">Browse Categories</div></li>
+                            <ul id="sidebarNav" class="list-unstyled mb-0 sidebar-navbar">
                                 <li>
-                                    <a class="dropdown-toggle dropdown-toggle-collapse" href="javascript:;" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="sidebarNav1Collapse" data-target="#sidebarNav1Collapse">
-                                        Accessories<span class="text-gray-25 font-size-12 font-weight-normal"> (56)</span>
+                                    <a class="dropdown-toggle dropdown-toggle-collapse dropdown-title" href="javascript:;" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="sidebarNav1Collapse" data-target="#sidebarNav1Collapse">
+                                        Show All Categories
                                     </a>
 
                                     <div id="sidebarNav1Collapse" class="collapse" data-parent="#sidebarNav">
@@ -1215,132 +1214,14 @@
                                     </div>
                                 </li>
                                 <li>
-                                    <a class="dropdown-toggle dropdown-toggle-collapse" href="javascript:;" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="sidebarNav2Collapse" data-target="#sidebarNav2Collapse">
-                                        Cameras & Photography<span class="text-gray-25 font-size-12 font-weight-normal"> (56)</span>
-                                    </a>
+                                    <a class="dropdown-current active" href="#">Smart Phones & Tablets <span class="text-gray-25 font-size-12 font-weight-normal"> (50)</span></a>
 
-                                    <div id="sidebarNav2Collapse" class="collapse" data-parent="#sidebarNav">
-                                        <ul id="sidebarNav2" class="list-unstyled dropdown-list">
-                                            <!-- Menu List -->
-                                            <li><a class="dropdown-item" href="#">Cameras<span class="text-gray-25 font-size-12 font-weight-normal"> (56)</span></a></li>
-                                            <!-- End Menu List -->
-                                        </ul>
-                                    </div>
-                                </li>
-                                <li>
-                                    <a class="dropdown-toggle dropdown-toggle-collapse" href="javascript:;" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="sidebarNav3Collapse" data-target="#sidebarNav3Collapse">
-                                        Computer Components<span class="text-gray-25 font-size-12 font-weight-normal"> (56)</span>
-                                    </a>
-
-                                    <div id="sidebarNav3Collapse" class="collapse" data-parent="#sidebarNav">
-                                        <ul id="sidebarNav3" class="list-unstyled dropdown-list">
-                                            <!-- Menu List -->
-                                            <li><a class="dropdown-item" href="#">Computer Cases<span class="text-gray-25 font-size-12 font-weight-normal"> (56)</span></a></li>
-                                            <!-- End Menu List -->
-                                        </ul>
-                                    </div>
-                                </li>
-                                <li>
-                                    <a class="dropdown-toggle dropdown-toggle-collapse" href="javascript:;" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="sidebarNav4Collapse" data-target="#sidebarNav4Collapse">
-                                        Gadgets<span class="text-gray-25 font-size-12 font-weight-normal"> (56)</span>
-                                    </a>
-
-                                    <div id="sidebarNav4Collapse" class="collapse" data-parent="#sidebarNav">
-                                        <ul id="sidebarNav4" class="list-unstyled dropdown-list">
-                                            <!-- Menu List -->
-                                            <li><a class="dropdown-item" href="#">Smartwatches<span class="text-gray-25 font-size-12 font-weight-normal"> (56)</span></a></li>
-                                            <li><a class="dropdown-item" href="#">Wearables<span class="text-gray-25 font-size-12 font-weight-normal"> (56)</span></a></li>
-                                            <!-- End Menu List -->
-                                        </ul>
-                                    </div>
-                                </li>
-                                <li>
-                                    <a class="dropdown-toggle dropdown-toggle-collapse" href="javascript:;" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="sidebarNav5Collapse" data-target="#sidebarNav5Collapse">
-                                        Home Entertainment<span class="text-gray-25 font-size-12 font-weight-normal"> (56)</span>
-                                    </a>
-
-                                    <div id="sidebarNav5Collapse" class="collapse" data-parent="#sidebarNav">
-                                        <ul id="sidebarNav5" class="list-unstyled dropdown-list">
-                                            <!-- Menu List -->
-                                            <li><a class="dropdown-item" href="#">Tvs<span class="text-gray-25 font-size-12 font-weight-normal"> (56)</span></a></li>
-                                            <!-- End Menu List -->
-                                        </ul>
-                                    </div>
-                                </li>
-                                <li>
-                                    <a class="dropdown-toggle dropdown-toggle-collapse" href="javascript:;" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="sidebarNav6Collapse" data-target="#sidebarNav6Collapse">
-                                        Laptops & Computers<span class="text-gray-25 font-size-12 font-weight-normal"> (56)</span>
-                                    </a>
-
-                                    <div id="sidebarNav6Collapse" class="collapse" data-parent="#sidebarNav">
-                                        <ul id="sidebarNav6" class="list-unstyled dropdown-list">
-                                            <!-- Menu List -->
-                                            <li><a class="dropdown-item" href="#">Accessories<span class="text-gray-25 font-size-12 font-weight-normal"> (56)</span></a></li>
-                                            <li><a class="dropdown-item" href="#">Cameras & Photography<span class="text-gray-25 font-size-12 font-weight-normal"> (11)</span></a></li>
-                                            <li><a class="dropdown-item" href="#">Computer Components<span class="text-gray-25 font-size-12 font-weight-normal"> (22)</span></a></li>
-                                            <li><a class="dropdown-item" href="#">Gadgets<span class="text-gray-25 font-size-12 font-weight-normal"> (5)</span></a></li>
-                                            <li><a class="dropdown-item" href="#">Home Entertainment<span class="text-gray-25 font-size-12 font-weight-normal"> (7)</span></a></li>
-                                            <li><a class="dropdown-item" href="#">Laptops & Computers<span class="text-gray-25 font-size-12 font-weight-normal"> (42)</span></a></li>
-                                            <li><a class="dropdown-item" href="#">Printers & Ink<span class="text-gray-25 font-size-12 font-weight-normal"> (63)</span></a></li>
-                                            <li><a class="dropdown-item" href="#">Smart Phones & Tablets<span class="text-gray-25 font-size-12 font-weight-normal"> (11)</span></a></li>
-                                            <li><a class="dropdown-item" href="#">TV & Audio<span class="text-gray-25 font-size-12 font-weight-normal"> (66)</span></a></li>
-                                            <li><a class="dropdown-item" href="#">Video Games & Consoles<span class="text-gray-25 font-size-12 font-weight-normal"> (31)</span></a></li>
-                                            <!-- End Menu List -->
-                                        </ul>
-                                    </div>
-                                </li>
-                                <li>
-                                    <a class="dropdown-toggle dropdown-toggle-collapse" href="javascript:;" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="sidebarNav7Collapse" data-target="#sidebarNav7Collapse">
-                                        Printers & Ink<span class="text-gray-25 font-size-12 font-weight-normal"> (56)</span>
-                                    </a>
-
-                                    <div id="sidebarNav7Collapse" class="collapse" data-parent="#sidebarNav">
-                                        <ul id="sidebarNav7" class="list-unstyled dropdown-list">
-                                            <!-- Menu List -->
-                                            <li><a class="dropdown-item" href="#">Printers<span class="text-gray-25 font-size-12 font-weight-normal"> (56)</span></a></li>
-                                            <!-- End Menu List -->
-                                        </ul>
-                                    </div>
-                                </li>
-                                <li>
-                                    <a class="dropdown-toggle dropdown-toggle-collapse" href="javascript:;" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="sidebarNav8Collapse" data-target="#sidebarNav8Collapse">
-                                        Smart Phones & Tablets<span class="text-gray-25 font-size-12 font-weight-normal"> (56)</span>
-                                    </a>
-
-                                    <div id="sidebarNav8Collapse" class="collapse" data-parent="#sidebarNav">
-                                        <ul id="sidebarNav8" class="list-unstyled dropdown-list">
-                                            <!-- Menu List -->
-                                            <li><a class="dropdown-item" href="#">Smartphones<span class="text-gray-25 font-size-12 font-weight-normal"> (56)</span></a></li>
-                                            <li><a class="dropdown-item" href="#">Tablets<span class="text-gray-25 font-size-12 font-weight-normal"> (56)</span></a></li>
-                                            <!-- End Menu List -->
-                                        </ul>
-                                    </div>
-                                </li>
-                                <li>
-                                    <a class="dropdown-toggle dropdown-toggle-collapse" href="javascript:;" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="sidebarNav9Collapse" data-target="#sidebarNav9Collapse">
-                                        TV & Audio<span class="text-gray-25 font-size-12 font-weight-normal"> (56)</span>
-                                    </a>
-
-                                    <div id="sidebarNav9Collapse" class="collapse" data-parent="#sidebarNav">
-                                        <ul id="sidebarNav9" class="list-unstyled dropdown-list">
-                                            <!-- Menu List -->
-                                            <li><a class="dropdown-item" href="#">Audio Speakers<span class="text-gray-25 font-size-12 font-weight-normal"> (56)</span></a></li>
-                                            <!-- End Menu List -->
-                                        </ul>
-                                    </div>
-                                </li>
-                                <li>
-                                    <a class="dropdown-toggle dropdown-toggle-collapse" href="javascript:;" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="sidebarNav10Collapse" data-target="#sidebarNav10Collapse">
-                                        Video Games & Consoles<span class="text-gray-25 font-size-12 font-weight-normal"> (56)</span>
-                                    </a>
-
-                                    <div id="sidebarNav10Collapse" class="collapse" data-parent="#sidebarNav">
-                                        <ul id="sidebarNav10" class="list-unstyled dropdown-list">
-                                            <!-- Menu List -->
-                                            <li><a class="dropdown-item" href="#">Game Consoles<span class="text-gray-25 font-size-12 font-weight-normal"> (56)</span></a></li>
-                                            <!-- End Menu List -->
-                                        </ul>
-                                    </div>
+                                    <ul class="list-unstyled dropdown-list">
+                                        <!-- Menu List -->
+                                        <li><a class="dropdown-item" href="#">Smartphones<span class="text-gray-25 font-size-12 font-weight-normal"> (30)</span></a></li>
+                                        <li><a class="dropdown-item" href="#">Tablets<span class="text-gray-25 font-size-12 font-weight-normal"> (20)</span></a></li>
+                                        <!-- End Menu List -->
+                                    </ul>
                                 </li>
                             </ul>
                             <!-- End List -->
@@ -1531,7 +1412,7 @@
                                     <div class="row">
                                         <div class="col-auto">
                                             <a href="../shop/single-product-fullwidth.html" class="d-block width-75">
-                                                <img class="img-fluid" src="/assets/img/300X300/img1.jpg" alt="Image Description">
+                                                <img class="img-fluid" src="../../assets/img/300X300/img1.jpg" alt="Image Description">
                                             </a>
                                         </div>
                                         <div class="col">
@@ -1554,7 +1435,7 @@
                                     <div class="row">
                                         <div class="col-auto">
                                             <a href="../shop/single-product-fullwidth.html" class="d-block width-75">
-                                                <img class="img-fluid" src="/assets/img/300X300/img3.jpg" alt="Image Description">
+                                                <img class="img-fluid" src="../../assets/img/300X300/img3.jpg" alt="Image Description">
                                             </a>
                                         </div>
                                         <div class="col">
@@ -1576,7 +1457,7 @@
                                     <div class="row">
                                         <div class="col-auto">
                                             <a href="../shop/single-product-fullwidth.html" class="d-block width-75">
-                                                <img class="img-fluid" src="/assets/img/300X300/img5.jpg" alt="Image Description">
+                                                <img class="img-fluid" src="../../assets/img/300X300/img5.jpg" alt="Image Description">
                                             </a>
                                         </div>
                                         <div class="col">
@@ -1598,7 +1479,7 @@
                                     <div class="row">
                                         <div class="col-auto">
                                             <a href="../shop/single-product-fullwidth.html" class="d-block width-75">
-                                                <img class="img-fluid" src="/assets/img/300X300/img6.jpg" alt="Image Description">
+                                                <img class="img-fluid" src="../../assets/img/300X300/img6.jpg" alt="Image Description">
                                             </a>
                                         </div>
                                         <div class="col">
@@ -1621,7 +1502,7 @@
                                     <div class="row">
                                         <div class="col-auto">
                                             <a href="../shop/single-product-fullwidth.html" class="d-block width-75">
-                                                <img class="img-fluid" src="/assets/img/300X300/img10.png" alt="Image Description">
+                                                <img class="img-fluid" src="../../assets/img/300X300/img10.png" alt="Image Description">
                                             </a>
                                         </div>
                                         <div class="col">
@@ -1643,313 +1524,9 @@
                         </div>
                     </div>
                     <div class="col-xl-9 col-wd-9gdot5">
-                        <!-- Recommended Products -->
-                        <div class="mb-6 d-none d-xl-block">
-                            <div class="position-relative">
-                                <div class="border-bottom border-color-1 mb-2">
-                                    <h3 class="d-inline-block section-title section-title__full mb-0 pb-2 font-size-22">Recommended Products</h3>
-                                </div>
-                                <div class="js-slick-carousel u-slick position-static overflow-hidden u-slick-overflow-visble pb-7 pt-2 px-1"
-                                    data-pagi-classes="text-center right-0 bottom-1 left-0 u-slick__pagination u-slick__pagination--long mb-0 z-index-n1 mt-3 mt-md-0"
-                                    data-slides-show="5"
-                                    data-slides-scroll="1"
-                                    data-arrows-classes="position-absolute top-0 font-size-17 u-slick__arrow-normal top-10"
-                                    data-arrow-left-classes="fa fa-angle-left right-1"
-                                    data-arrow-right-classes="fa fa-angle-right right-0"
-                                    data-responsive='[{
-                                      "breakpoint": 1400,
-                                      "settings": {
-                                        "slidesToShow": 4
-                                      }
-                                    }, {
-                                        "breakpoint": 1200,
-                                        "settings": {
-                                          "slidesToShow": 4
-                                        }
-                                    }, {
-                                      "breakpoint": 992,
-                                      "settings": {
-                                        "slidesToShow": 3
-                                      }
-                                    }, {
-                                      "breakpoint": 768,
-                                      "settings": {
-                                        "slidesToShow": 2
-                                      }
-                                    }, {
-                                      "breakpoint": 554,
-                                      "settings": {
-                                        "slidesToShow": 2
-                                      }
-                                    }]'>
-                                    <div class="js-slide products-group">
-                                        <div class="product-item">
-                                            <div class="product-item__outer h-100">
-                                                <div class="product-item__inner px-wd-4 p-2 p-md-3">
-                                                    <div class="product-item__body pb-xl-2">
-                                                        <div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">Speakers</a></div>
-                                                        <h5 class="mb-1 product-item__title"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Wireless Audio System Multiroom 360 degree Full base audio</a></h5>
-                                                        <div class="mb-2">
-                                                            <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="/assets/img/212X200/img1.jpg" alt="Image Description"></a>
-                                                        </div>
-                                                        <div class="flex-center-between mb-1">
-                                                            <div class="prodcut-price">
-                                                                <div class="text-gray-100">$685,00</div>
-                                                            </div>
-                                                            <div class="d-none d-xl-block prodcut-add-cart">
-                                                                <a href="../shop/single-product-fullwidth.html" class="btn-add-cart btn-primary transition-3d-hover"><i class="ec ec-add-to-cart"></i></a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="product-item__footer">
-                                                        <div class="border-top pt-2 flex-center-between flex-wrap">
-                                                            <a href="../shop/compare.html" class="text-gray-6 font-size-13"><i class="ec ec-compare mr-1 font-size-15"></i> Compare</a>
-                                                            <a href="../shop/wishlist.html" class="text-gray-6 font-size-13"><i class="ec ec-favorites mr-1 font-size-15"></i> Wishlist</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="js-slide products-group">
-                                        <div class="product-item">
-                                            <div class="product-item__outer h-100">
-                                                <div class="product-item__inner px-wd-4 p-2 p-md-3">
-                                                    <div class="product-item__body pb-xl-2">
-                                                        <div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">Speakers</a></div>
-                                                        <h5 class="mb-1 product-item__title"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Wireless Audio System Multiroom 360 degree Full base audio</a></h5>
-                                                        <div class="mb-2">
-                                                            <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="/assets/img/212X200/img2.jpg" alt="Image Description"></a>
-                                                        </div>
-                                                        <div class="flex-center-between mb-1">
-                                                            <div class="prodcut-price">
-                                                                <div class="text-gray-100">$685,00</div>
-                                                            </div>
-                                                            <div class="d-none d-xl-block prodcut-add-cart">
-                                                                <a href="../shop/single-product-fullwidth.html" class="btn-add-cart btn-primary transition-3d-hover"><i class="ec ec-add-to-cart"></i></a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="product-item__footer">
-                                                        <div class="border-top pt-2 flex-center-between flex-wrap">
-                                                            <a href="../shop/compare.html" class="text-gray-6 font-size-13"><i class="ec ec-compare mr-1 font-size-15"></i> Compare</a>
-                                                            <a href="../shop/wishlist.html" class="text-gray-6 font-size-13"><i class="ec ec-favorites mr-1 font-size-15"></i> Wishlist</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="js-slide products-group">
-                                        <div class="product-item">
-                                            <div class="product-item__outer h-100">
-                                                <div class="product-item__inner px-wd-4 p-2 p-md-3">
-                                                    <div class="product-item__body pb-xl-2">
-                                                        <div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">Speakers</a></div>
-                                                        <h5 class="mb-1 product-item__title"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Wireless Audio System Multiroom 360 degree Full base audio</a></h5>
-                                                        <div class="mb-2">
-                                                            <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="/assets/img/212X200/img3.jpg" alt="Image Description"></a>
-                                                        </div>
-                                                        <div class="flex-center-between mb-1">
-                                                            <div class="prodcut-price">
-                                                                <div class="text-gray-100">$685,00</div>
-                                                            </div>
-                                                            <div class="d-none d-xl-block prodcut-add-cart">
-                                                                <a href="../shop/single-product-fullwidth.html" class="btn-add-cart btn-primary transition-3d-hover"><i class="ec ec-add-to-cart"></i></a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="product-item__footer">
-                                                        <div class="border-top pt-2 flex-center-between flex-wrap">
-                                                            <a href="../shop/compare.html" class="text-gray-6 font-size-13"><i class="ec ec-compare mr-1 font-size-15"></i> Compare</a>
-                                                            <a href="../shop/wishlist.html" class="text-gray-6 font-size-13"><i class="ec ec-favorites mr-1 font-size-15"></i> Wishlist</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="js-slide products-group">
-                                        <div class="product-item">
-                                            <div class="product-item__outer h-100">
-                                                <div class="product-item__inner px-wd-4 p-2 p-md-3">
-                                                    <div class="product-item__body pb-xl-2">
-                                                        <div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">Speakers</a></div>
-                                                        <h5 class="mb-1 product-item__title"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Wireless Audio System Multiroom 360 degree Full base audio</a></h5>
-                                                        <div class="mb-2">
-                                                            <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="/assets/img/212X200/img4.jpg" alt="Image Description"></a>
-                                                        </div>
-                                                        <div class="flex-center-between mb-1">
-                                                            <div class="prodcut-price">
-                                                                <div class="text-gray-100">$685,00</div>
-                                                            </div>
-                                                            <div class="d-none d-xl-block prodcut-add-cart">
-                                                                <a href="../shop/single-product-fullwidth.html" class="btn-add-cart btn-primary transition-3d-hover"><i class="ec ec-add-to-cart"></i></a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="product-item__footer">
-                                                        <div class="border-top pt-2 flex-center-between flex-wrap">
-                                                            <a href="../shop/compare.html" class="text-gray-6 font-size-13"><i class="ec ec-compare mr-1 font-size-15"></i> Compare</a>
-                                                            <a href="../shop/wishlist.html" class="text-gray-6 font-size-13"><i class="ec ec-favorites mr-1 font-size-15"></i> Wishlist</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="js-slide products-group">
-                                        <div class="product-item">
-                                            <div class="product-item__outer h-100">
-                                                <div class="product-item__inner px-wd-4 p-2 p-md-3">
-                                                    <div class="product-item__body pb-xl-2">
-                                                        <div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">Speakers</a></div>
-                                                        <h5 class="mb-1 product-item__title"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Wireless Audio System Multiroom 360 degree Full base audio</a></h5>
-                                                        <div class="mb-2">
-                                                            <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="/assets/img/212X200/img5.jpg" alt="Image Description"></a>
-                                                        </div>
-                                                        <div class="flex-center-between mb-1">
-                                                            <div class="prodcut-price">
-                                                                <div class="text-gray-100">$685,00</div>
-                                                            </div>
-                                                            <div class="d-none d-xl-block prodcut-add-cart">
-                                                                <a href="../shop/single-product-fullwidth.html" class="btn-add-cart btn-primary transition-3d-hover"><i class="ec ec-add-to-cart"></i></a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="product-item__footer">
-                                                        <div class="border-top pt-2 flex-center-between flex-wrap">
-                                                            <a href="../shop/compare.html" class="text-gray-6 font-size-13"><i class="ec ec-compare mr-1 font-size-15"></i> Compare</a>
-                                                            <a href="../shop/wishlist.html" class="text-gray-6 font-size-13"><i class="ec ec-favorites mr-1 font-size-15"></i> Wishlist</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="js-slide products-group">
-                                        <div class="product-item">
-                                            <div class="product-item__outer h-100">
-                                                <div class="product-item__inner px-wd-4 p-2 p-md-3">
-                                                    <div class="product-item__body pb-xl-2">
-                                                        <div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">Speakers</a></div>
-                                                        <h5 class="mb-1 product-item__title"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Wireless Audio System Multiroom 360 degree Full base audio</a></h5>
-                                                        <div class="mb-2">
-                                                            <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="/assets/img/212X200/img6.jpg" alt="Image Description"></a>
-                                                        </div>
-                                                        <div class="flex-center-between mb-1">
-                                                            <div class="prodcut-price">
-                                                                <div class="text-gray-100">$685,00</div>
-                                                            </div>
-                                                            <div class="d-none d-xl-block prodcut-add-cart">
-                                                                <a href="../shop/single-product-fullwidth.html" class="btn-add-cart btn-primary transition-3d-hover"><i class="ec ec-add-to-cart"></i></a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="product-item__footer">
-                                                        <div class="border-top pt-2 flex-center-between flex-wrap">
-                                                            <a href="../shop/compare.html" class="text-gray-6 font-size-13"><i class="ec ec-compare mr-1 font-size-15"></i> Compare</a>
-                                                            <a href="../shop/wishlist.html" class="text-gray-6 font-size-13"><i class="ec ec-favorites mr-1 font-size-15"></i> Wishlist</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="js-slide products-group">
-                                        <div class="product-item">
-                                            <div class="product-item__outer h-100">
-                                                <div class="product-item__inner px-wd-4 p-2 p-md-3">
-                                                    <div class="product-item__body pb-xl-2">
-                                                        <div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">Speakers</a></div>
-                                                        <h5 class="mb-1 product-item__title"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Wireless Audio System Multiroom 360 degree Full base audio</a></h5>
-                                                        <div class="mb-2">
-                                                            <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="/assets/img/212X200/img7.jpg" alt="Image Description"></a>
-                                                        </div>
-                                                        <div class="flex-center-between mb-1">
-                                                            <div class="prodcut-price">
-                                                                <div class="text-gray-100">$685,00</div>
-                                                            </div>
-                                                            <div class="d-none d-xl-block prodcut-add-cart">
-                                                                <a href="../shop/single-product-fullwidth.html" class="btn-add-cart btn-primary transition-3d-hover"><i class="ec ec-add-to-cart"></i></a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="product-item__footer">
-                                                        <div class="border-top pt-2 flex-center-between flex-wrap">
-                                                            <a href="../shop/compare.html" class="text-gray-6 font-size-13"><i class="ec ec-compare mr-1 font-size-15"></i> Compare</a>
-                                                            <a href="../shop/wishlist.html" class="text-gray-6 font-size-13"><i class="ec ec-favorites mr-1 font-size-15"></i> Wishlist</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="js-slide products-group">
-                                        <div class="product-item">
-                                            <div class="product-item__outer h-100">
-                                                <div class="product-item__inner px-wd-4 p-2 p-md-3">
-                                                    <div class="product-item__body pb-xl-2">
-                                                        <div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">Speakers</a></div>
-                                                        <h5 class="mb-1 product-item__title"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Wireless Audio System Multiroom 360 degree Full base audio</a></h5>
-                                                        <div class="mb-2">
-                                                            <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="/assets/img/212X200/img1.jpg" alt="Image Description"></a>
-                                                        </div>
-                                                        <div class="flex-center-between mb-1">
-                                                            <div class="prodcut-price">
-                                                                <div class="text-gray-100">$685,00</div>
-                                                            </div>
-                                                            <div class="d-none d-xl-block prodcut-add-cart">
-                                                                <a href="../shop/single-product-fullwidth.html" class="btn-add-cart btn-primary transition-3d-hover"><i class="ec ec-add-to-cart"></i></a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="product-item__footer">
-                                                        <div class="border-top pt-2 flex-center-between flex-wrap">
-                                                            <a href="../shop/compare.html" class="text-gray-6 font-size-13"><i class="ec ec-compare mr-1 font-size-15"></i> Compare</a>
-                                                            <a href="../shop/wishlist.html" class="text-gray-6 font-size-13"><i class="ec ec-favorites mr-1 font-size-15"></i> Wishlist</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="js-slide products-group">
-                                        <div class="product-item">
-                                            <div class="product-item__outer h-100">
-                                                <div class="product-item__inner px-wd-4 p-2 p-md-3">
-                                                    <div class="product-item__body pb-xl-2">
-                                                        <div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">Speakers</a></div>
-                                                        <h5 class="mb-1 product-item__title"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Wireless Audio System Multiroom 360 degree Full base audio</a></h5>
-                                                        <div class="mb-2">
-                                                            <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="/assets/img/212X200/img1.jpg" alt="Image Description"></a>
-                                                        </div>
-                                                        <div class="flex-center-between mb-1">
-                                                            <div class="prodcut-price">
-                                                                <div class="text-gray-100">$685,00</div>
-                                                            </div>
-                                                            <div class="d-none d-xl-block prodcut-add-cart">
-                                                                <a href="../shop/single-product-fullwidth.html" class="btn-add-cart btn-primary transition-3d-hover"><i class="ec ec-add-to-cart"></i></a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="product-item__footer">
-                                                        <div class="border-top pt-2 flex-center-between flex-wrap">
-                                                            <a href="../shop/compare.html" class="text-gray-6 font-size-13"><i class="ec ec-compare mr-1 font-size-15"></i> Compare</a>
-                                                            <a href="../shop/wishlist.html" class="text-gray-6 font-size-13"><i class="ec ec-favorites mr-1 font-size-15"></i> Wishlist</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Recommended Products -->
                         <!-- Shop-control-bar Title -->
-                        <div class="flex-center-between mb-3">
-                            <h3 class="font-size-25 mb-0">Shop</h3>
+                        <div class="d-block d-md-flex flex-center-between mb-3">
+                            <h3 class="font-size-25 mb-2 mb-md-0">Smart Phones & Tablets</h3>
                             <p class="font-size-14 text-gray-90 mb-0">Showing 1–25 of 56 results</p>
                         </div>
                         <!-- End shop-control-bar Title -->
@@ -2049,7 +1626,7 @@
                                                     <div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">Speakers</a></div>
                                                     <h5 class="mb-1 product-item__title"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Wireless Audio System Multiroom 360 degree Full base audio</a></h5>
                                                     <div class="mb-2">
-                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="/assets/img/212X200/img1.jpg" alt="Image Description"></a>
+                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="../../assets/img/212X200/img9.jpg" alt="Image Description"></a>
                                                     </div>
                                                     <div class="flex-center-between mb-1">
                                                         <div class="prodcut-price">
@@ -2076,7 +1653,7 @@
                                                     <div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">Speakers</a></div>
                                                     <h5 class="mb-1 product-item__title"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Tablet White EliteBook Revolve 810 G2</a></h5>
                                                     <div class="mb-2">
-                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="/assets/img/212X200/img2.jpg" alt="Image Description"></a>
+                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="../../assets/img/212X200/img10.jpg" alt="Image Description"></a>
                                                     </div>
                                                     <div class="flex-center-between mb-1">
                                                         <div class="prodcut-price d-flex align-items-center position-relative">
@@ -2104,7 +1681,7 @@
                                                     <div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">Speakers</a></div>
                                                     <h5 class="mb-1 product-item__title"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Purple Solo 2 Wireless</a></h5>
                                                     <div class="mb-2">
-                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="/assets/img/212X200/img3.jpg" alt="Image Description"></a>
+                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="../../assets/img/212X200/img9.jpg" alt="Image Description"></a>
                                                     </div>
                                                     <div class="flex-center-between mb-1">
                                                         <div class="prodcut-price">
@@ -2131,7 +1708,7 @@
                                                     <div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">Speakers</a></div>
                                                     <h5 class="mb-1 product-item__title"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Smartphone 6S 32GB LTE</a></h5>
                                                     <div class="mb-2">
-                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="/assets/img/212X200/img4.jpg" alt="Image Description"></a>
+                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="../../assets/img/212X200/img4.jpg" alt="Image Description"></a>
                                                     </div>
                                                     <div class="flex-center-between mb-1">
                                                         <div class="prodcut-price">
@@ -2158,7 +1735,7 @@
                                                     <div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">Speakers</a></div>
                                                     <h5 class="mb-1 product-item__title"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Widescreen NX Mini F1 SMART NX</a></h5>
                                                     <div class="mb-2">
-                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="/assets/img/212X200/img5.jpg" alt="Image Description"></a>
+                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="../../assets/img/212X200/img10.jpg" alt="Image Description"></a>
                                                     </div>
                                                     <div class="flex-center-between mb-1">
                                                         <div class="prodcut-price">
@@ -2185,7 +1762,7 @@
                                                     <div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">Speakers</a></div>
                                                     <h5 class="mb-1 product-item__title"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Wireless Audio System Multiroom 360 degree Full base audio</a></h5>
                                                     <div class="mb-2">
-                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="/assets/img/212X200/img6.jpg" alt="Image Description"></a>
+                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="../../assets/img/212X200/img9.jpg" alt="Image Description"></a>
                                                     </div>
                                                     <div class="flex-center-between mb-1">
                                                         <div class="prodcut-price">
@@ -2212,7 +1789,7 @@
                                                     <div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">Speakers</a></div>
                                                     <h5 class="mb-1 product-item__title"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Tablet White EliteBook Revolve 810 G2</a></h5>
                                                     <div class="mb-2">
-                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="/assets/img/212X200/img7.jpg" alt="Image Description"></a>
+                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="../../assets/img/212X200/img7.jpg" alt="Image Description"></a>
                                                     </div>
                                                     <div class="flex-center-between mb-1">
                                                         <div class="prodcut-price d-flex align-items-center position-relative">
@@ -2240,7 +1817,7 @@
                                                     <div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">Speakers</a></div>
                                                     <h5 class="mb-1 product-item__title"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Purple Solo 2 Wireless</a></h5>
                                                     <div class="mb-2">
-                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="/assets/img/212X200/img8.jpg" alt="Image Description"></a>
+                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="../../assets/img/212X200/img10.jpg" alt="Image Description"></a>
                                                     </div>
                                                     <div class="flex-center-between mb-1">
                                                         <div class="prodcut-price">
@@ -2267,7 +1844,7 @@
                                                     <div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">Speakers</a></div>
                                                     <h5 class="mb-1 product-item__title"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Smartphone 6S 32GB LTE</a></h5>
                                                     <div class="mb-2">
-                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="/assets/img/212X200/img1.jpg" alt="Image Description"></a>
+                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="../../assets/img/212X200/img9.jpg" alt="Image Description"></a>
                                                     </div>
                                                     <div class="flex-center-between mb-1">
                                                         <div class="prodcut-price">
@@ -2294,7 +1871,7 @@
                                                     <div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">Speakers</a></div>
                                                     <h5 class="mb-1 product-item__title"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Widescreen NX Mini F1 SMART NX</a></h5>
                                                     <div class="mb-2">
-                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="/assets/img/212X200/img2.jpg" alt="Image Description"></a>
+                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="../../assets/img/212X200/img10.jpg" alt="Image Description"></a>
                                                     </div>
                                                     <div class="flex-center-between mb-1">
                                                         <div class="prodcut-price">
@@ -2321,7 +1898,7 @@
                                                     <div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">Speakers</a></div>
                                                     <h5 class="mb-1 product-item__title"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Wireless Audio System Multiroom 360 degree Full base audio</a></h5>
                                                     <div class="mb-2">
-                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="/assets/img/212X200/img1.jpg" alt="Image Description"></a>
+                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="../../assets/img/212X200/img1.jpg" alt="Image Description"></a>
                                                     </div>
                                                     <div class="flex-center-between mb-1">
                                                         <div class="prodcut-price">
@@ -2348,7 +1925,7 @@
                                                     <div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">Speakers</a></div>
                                                     <h5 class="mb-1 product-item__title"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Tablet White EliteBook Revolve 810 G2</a></h5>
                                                     <div class="mb-2">
-                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="/assets/img/212X200/img2.jpg" alt="Image Description"></a>
+                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="../../assets/img/212X200/img2.jpg" alt="Image Description"></a>
                                                     </div>
                                                     <div class="flex-center-between mb-1">
                                                         <div class="prodcut-price d-flex align-items-center position-relative">
@@ -2376,7 +1953,7 @@
                                                     <div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">Speakers</a></div>
                                                     <h5 class="mb-1 product-item__title"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Purple Solo 2 Wireless</a></h5>
                                                     <div class="mb-2">
-                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="/assets/img/212X200/img3.jpg" alt="Image Description"></a>
+                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="../../assets/img/212X200/img3.jpg" alt="Image Description"></a>
                                                     </div>
                                                     <div class="flex-center-between mb-1">
                                                         <div class="prodcut-price">
@@ -2403,7 +1980,7 @@
                                                     <div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">Speakers</a></div>
                                                     <h5 class="mb-1 product-item__title"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Smartphone 6S 32GB LTE</a></h5>
                                                     <div class="mb-2">
-                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="/assets/img/212X200/img4.jpg" alt="Image Description"></a>
+                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="../../assets/img/212X200/img4.jpg" alt="Image Description"></a>
                                                     </div>
                                                     <div class="flex-center-between mb-1">
                                                         <div class="prodcut-price">
@@ -2430,7 +2007,7 @@
                                                     <div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">Speakers</a></div>
                                                     <h5 class="mb-1 product-item__title"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Widescreen NX Mini F1 SMART NX</a></h5>
                                                     <div class="mb-2">
-                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="/assets/img/212X200/img5.jpg" alt="Image Description"></a>
+                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="../../assets/img/212X200/img5.jpg" alt="Image Description"></a>
                                                     </div>
                                                     <div class="flex-center-between mb-1">
                                                         <div class="prodcut-price">
@@ -2457,7 +2034,7 @@
                                                     <div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">Speakers</a></div>
                                                     <h5 class="mb-1 product-item__title"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Wireless Audio System Multiroom 360 degree Full base audio</a></h5>
                                                     <div class="mb-2">
-                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="/assets/img/212X200/img6.jpg" alt="Image Description"></a>
+                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="../../assets/img/212X200/img6.jpg" alt="Image Description"></a>
                                                     </div>
                                                     <div class="flex-center-between mb-1">
                                                         <div class="prodcut-price">
@@ -2484,7 +2061,7 @@
                                                     <div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">Speakers</a></div>
                                                     <h5 class="mb-1 product-item__title"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Tablet White EliteBook Revolve 810 G2</a></h5>
                                                     <div class="mb-2">
-                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="/assets/img/212X200/img7.jpg" alt="Image Description"></a>
+                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="../../assets/img/212X200/img7.jpg" alt="Image Description"></a>
                                                     </div>
                                                     <div class="flex-center-between mb-1">
                                                         <div class="prodcut-price d-flex align-items-center position-relative">
@@ -2512,7 +2089,7 @@
                                                     <div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">Speakers</a></div>
                                                     <h5 class="mb-1 product-item__title"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Purple Solo 2 Wireless</a></h5>
                                                     <div class="mb-2">
-                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="/assets/img/212X200/img8.jpg" alt="Image Description"></a>
+                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="../../assets/img/212X200/img8.jpg" alt="Image Description"></a>
                                                     </div>
                                                     <div class="flex-center-between mb-1">
                                                         <div class="prodcut-price">
@@ -2539,7 +2116,7 @@
                                                     <div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">Speakers</a></div>
                                                     <h5 class="mb-1 product-item__title"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Smartphone 6S 32GB LTE</a></h5>
                                                     <div class="mb-2">
-                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="/assets/img/212X200/img1.jpg" alt="Image Description"></a>
+                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="../../assets/img/212X200/img1.jpg" alt="Image Description"></a>
                                                     </div>
                                                     <div class="flex-center-between mb-1">
                                                         <div class="prodcut-price">
@@ -2566,7 +2143,7 @@
                                                     <div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">Speakers</a></div>
                                                     <h5 class="mb-1 product-item__title"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Widescreen NX Mini F1 SMART NX</a></h5>
                                                     <div class="mb-2">
-                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="/assets/img/212X200/img2.jpg" alt="Image Description"></a>
+                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="../../assets/img/212X200/img2.jpg" alt="Image Description"></a>
                                                     </div>
                                                     <div class="flex-center-between mb-1">
                                                         <div class="prodcut-price">
@@ -2597,7 +2174,7 @@
                                                     <div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">Speakers</a></div>
                                                     <h5 class="mb-1 product-item__title"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Wireless Audio System Multiroom 360 degree Full base audio</a></h5>
                                                     <div class="mb-2">
-                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="/assets/img/212X200/img1.jpg" alt="Image Description"></a>
+                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="../../assets/img/212X200/img9.jpg" alt="Image Description"></a>
                                                     </div>
                                                     <div class="mb-3">
                                                         <a class="d-inline-flex align-items-center small font-size-14" href="#">
@@ -2642,7 +2219,7 @@
                                                     <div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">Speakers</a></div>
                                                     <h5 class="mb-1 product-item__title"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Tablet White EliteBook Revolve 810 G2</a></h5>
                                                     <div class="mb-2">
-                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="/assets/img/212X200/img2.jpg" alt="Image Description"></a>
+                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="../../assets/img/212X200/img10.jpg" alt="Image Description"></a>
                                                     </div>
                                                     <div class="mb-3">
                                                         <a class="d-inline-flex align-items-center small font-size-14" href="#">
@@ -2687,7 +2264,7 @@
                                                     <div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">Speakers</a></div>
                                                     <h5 class="mb-1 product-item__title"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Purple Solo 2 Wireless</a></h5>
                                                     <div class="mb-2">
-                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="/assets/img/212X200/img3.jpg" alt="Image Description"></a>
+                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="../../assets/img/212X200/img9.jpg" alt="Image Description"></a>
                                                     </div>
                                                     <div class="mb-3">
                                                         <a class="d-inline-flex align-items-center small font-size-14" href="#">
@@ -2732,7 +2309,7 @@
                                                     <div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">Speakers</a></div>
                                                     <h5 class="mb-1 product-item__title"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Smartphone 6S 32GB LTE</a></h5>
                                                     <div class="mb-2">
-                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="/assets/img/212X200/img4.jpg" alt="Image Description"></a>
+                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="../../assets/img/212X200/img4.jpg" alt="Image Description"></a>
                                                     </div>
                                                     <div class="mb-3">
                                                         <a class="d-inline-flex align-items-center small font-size-14" href="#">
@@ -2777,7 +2354,7 @@
                                                     <div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">Speakers</a></div>
                                                     <h5 class="mb-1 product-item__title"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Widescreen NX Mini F1 SMART NX</a></h5>
                                                     <div class="mb-2">
-                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="/assets/img/212X200/img5.jpg" alt="Image Description"></a>
+                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="../../assets/img/212X200/img10.jpg" alt="Image Description"></a>
                                                     </div>
                                                     <div class="mb-3">
                                                         <a class="d-inline-flex align-items-center small font-size-14" href="#">
@@ -2822,7 +2399,7 @@
                                                     <div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">Speakers</a></div>
                                                     <h5 class="mb-1 product-item__title"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Wireless Audio System Multiroom 360 degree Full base audio</a></h5>
                                                     <div class="mb-2">
-                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="/assets/img/212X200/img6.jpg" alt="Image Description"></a>
+                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="../../assets/img/212X200/img6.jpg" alt="Image Description"></a>
                                                     </div>
                                                     <div class="mb-3">
                                                         <a class="d-inline-flex align-items-center small font-size-14" href="#">
@@ -2867,7 +2444,7 @@
                                                     <div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">Speakers</a></div>
                                                     <h5 class="mb-1 product-item__title"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Tablet White EliteBook Revolve 810 G2</a></h5>
                                                     <div class="mb-2">
-                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="/assets/img/212X200/img7.jpg" alt="Image Description"></a>
+                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="../../assets/img/212X200/img7.jpg" alt="Image Description"></a>
                                                     </div>
                                                     <div class="mb-3">
                                                         <a class="d-inline-flex align-items-center small font-size-14" href="#">
@@ -2912,7 +2489,7 @@
                                                     <div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">Speakers</a></div>
                                                     <h5 class="mb-1 product-item__title"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Purple Solo 2 Wireless</a></h5>
                                                     <div class="mb-2">
-                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="/assets/img/212X200/img8.jpg" alt="Image Description"></a>
+                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="../../assets/img/212X200/img8.jpg" alt="Image Description"></a>
                                                     </div>
                                                     <div class="mb-3">
                                                         <a class="d-inline-flex align-items-center small font-size-14" href="#">
@@ -2957,7 +2534,7 @@
                                                     <div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">Speakers</a></div>
                                                     <h5 class="mb-1 product-item__title"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Smartphone 6S 32GB LTE</a></h5>
                                                     <div class="mb-2">
-                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="/assets/img/212X200/img1.jpg" alt="Image Description"></a>
+                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="../../assets/img/212X200/img1.jpg" alt="Image Description"></a>
                                                     </div>
                                                     <div class="mb-3">
                                                         <a class="d-inline-flex align-items-center small font-size-14" href="#">
@@ -3002,7 +2579,7 @@
                                                     <div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">Speakers</a></div>
                                                     <h5 class="mb-1 product-item__title"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Widescreen NX Mini F1 SMART NX</a></h5>
                                                     <div class="mb-2">
-                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="/assets/img/212X200/img2.jpg" alt="Image Description"></a>
+                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="../../assets/img/212X200/img2.jpg" alt="Image Description"></a>
                                                     </div>
                                                     <div class="mb-3">
                                                         <a class="d-inline-flex align-items-center small font-size-14" href="#">
@@ -3047,7 +2624,7 @@
                                                     <div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">Speakers</a></div>
                                                     <h5 class="mb-1 product-item__title"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Wireless Audio System Multiroom 360 degree Full base audio</a></h5>
                                                     <div class="mb-2">
-                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="/assets/img/212X200/img1.jpg" alt="Image Description"></a>
+                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="../../assets/img/212X200/img1.jpg" alt="Image Description"></a>
                                                     </div>
                                                     <div class="mb-3">
                                                         <a class="d-inline-flex align-items-center small font-size-14" href="#">
@@ -3092,7 +2669,7 @@
                                                     <div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">Speakers</a></div>
                                                     <h5 class="mb-1 product-item__title"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Tablet White EliteBook Revolve 810 G2</a></h5>
                                                     <div class="mb-2">
-                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="/assets/img/212X200/img2.jpg" alt="Image Description"></a>
+                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="../../assets/img/212X200/img2.jpg" alt="Image Description"></a>
                                                     </div>
                                                     <div class="mb-3">
                                                         <a class="d-inline-flex align-items-center small font-size-14" href="#">
@@ -3137,7 +2714,7 @@
                                                     <div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">Speakers</a></div>
                                                     <h5 class="mb-1 product-item__title"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Purple Solo 2 Wireless</a></h5>
                                                     <div class="mb-2">
-                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="/assets/img/212X200/img3.jpg" alt="Image Description"></a>
+                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="../../assets/img/212X200/img3.jpg" alt="Image Description"></a>
                                                     </div>
                                                     <div class="mb-3">
                                                         <a class="d-inline-flex align-items-center small font-size-14" href="#">
@@ -3182,7 +2759,7 @@
                                                     <div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">Speakers</a></div>
                                                     <h5 class="mb-1 product-item__title"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Smartphone 6S 32GB LTE</a></h5>
                                                     <div class="mb-2">
-                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="/assets/img/212X200/img4.jpg" alt="Image Description"></a>
+                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="../../assets/img/212X200/img4.jpg" alt="Image Description"></a>
                                                     </div>
                                                     <div class="mb-3">
                                                         <a class="d-inline-flex align-items-center small font-size-14" href="#">
@@ -3227,7 +2804,7 @@
                                                     <div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">Speakers</a></div>
                                                     <h5 class="mb-1 product-item__title"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Widescreen NX Mini F1 SMART NX</a></h5>
                                                     <div class="mb-2">
-                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="/assets/img/212X200/img5.jpg" alt="Image Description"></a>
+                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="../../assets/img/212X200/img5.jpg" alt="Image Description"></a>
                                                     </div>
                                                     <div class="mb-3">
                                                         <a class="d-inline-flex align-items-center small font-size-14" href="#">
@@ -3272,7 +2849,7 @@
                                                     <div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">Speakers</a></div>
                                                     <h5 class="mb-1 product-item__title"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Wireless Audio System Multiroom 360 degree Full base audio</a></h5>
                                                     <div class="mb-2">
-                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="/assets/img/212X200/img6.jpg" alt="Image Description"></a>
+                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="../../assets/img/212X200/img6.jpg" alt="Image Description"></a>
                                                     </div>
                                                     <div class="mb-3">
                                                         <a class="d-inline-flex align-items-center small font-size-14" href="#">
@@ -3317,7 +2894,7 @@
                                                     <div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">Speakers</a></div>
                                                     <h5 class="mb-1 product-item__title"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Tablet White EliteBook Revolve 810 G2</a></h5>
                                                     <div class="mb-2">
-                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="/assets/img/212X200/img7.jpg" alt="Image Description"></a>
+                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="../../assets/img/212X200/img7.jpg" alt="Image Description"></a>
                                                     </div>
                                                     <div class="mb-3">
                                                         <a class="d-inline-flex align-items-center small font-size-14" href="#">
@@ -3362,7 +2939,7 @@
                                                     <div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">Speakers</a></div>
                                                     <h5 class="mb-1 product-item__title"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Purple Solo 2 Wireless</a></h5>
                                                     <div class="mb-2">
-                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="/assets/img/212X200/img8.jpg" alt="Image Description"></a>
+                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="../../assets/img/212X200/img8.jpg" alt="Image Description"></a>
                                                     </div>
                                                     <div class="mb-3">
                                                         <a class="d-inline-flex align-items-center small font-size-14" href="#">
@@ -3407,7 +2984,7 @@
                                                     <div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">Speakers</a></div>
                                                     <h5 class="mb-1 product-item__title"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Smartphone 6S 32GB LTE</a></h5>
                                                     <div class="mb-2">
-                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="/assets/img/212X200/img1.jpg" alt="Image Description"></a>
+                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="../../assets/img/212X200/img1.jpg" alt="Image Description"></a>
                                                     </div>
                                                     <div class="mb-3">
                                                         <a class="d-inline-flex align-items-center small font-size-14" href="#">
@@ -3452,7 +3029,7 @@
                                                     <div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">Speakers</a></div>
                                                     <h5 class="mb-1 product-item__title"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Widescreen NX Mini F1 SMART NX</a></h5>
                                                     <div class="mb-2">
-                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="/assets/img/212X200/img2.jpg" alt="Image Description"></a>
+                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="../../assets/img/212X200/img2.jpg" alt="Image Description"></a>
                                                     </div>
                                                     <div class="mb-3">
                                                         <a class="d-inline-flex align-items-center small font-size-14" href="#">
@@ -3499,7 +3076,7 @@
                                             <div class="product-item__inner remove-prodcut-hover py-4 row">
                                                 <div class="product-item__header col-6 col-md-4">
                                                     <div class="mb-2">
-                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="/assets/img/212X200/img1.jpg" alt="Image Description"></a>
+                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="../../assets/img/212X200/img9.jpg" alt="Image Description"></a>
                                                     </div>
                                                 </div>
                                                 <div class="product-item__body col-6 col-md-5">
@@ -3550,7 +3127,7 @@
                                             <div class="product-item__inner remove-prodcut-hover py-4 row">
                                                 <div class="product-item__header col-6 col-md-4">
                                                     <div class="mb-2">
-                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="/assets/img/212X200/img2.jpg" alt="Image Description"></a>
+                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="../../assets/img/212X200/img10.jpg" alt="Image Description"></a>
                                                     </div>
                                                 </div>
                                                 <div class="product-item__body col-6 col-md-5">
@@ -3601,7 +3178,7 @@
                                             <div class="product-item__inner remove-prodcut-hover py-4 row">
                                                 <div class="product-item__header col-6 col-md-4">
                                                     <div class="mb-2">
-                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="/assets/img/212X200/img3.jpg" alt="Image Description"></a>
+                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="../../assets/img/212X200/img9.jpg" alt="Image Description"></a>
                                                     </div>
                                                 </div>
                                                 <div class="product-item__body col-6 col-md-5">
@@ -3652,7 +3229,7 @@
                                             <div class="product-item__inner remove-prodcut-hover py-4 row">
                                                 <div class="product-item__header col-6 col-md-4">
                                                     <div class="mb-2">
-                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="/assets/img/212X200/img4.jpg" alt="Image Description"></a>
+                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="../../assets/img/212X200/img4.jpg" alt="Image Description"></a>
                                                     </div>
                                                 </div>
                                                 <div class="product-item__body col-6 col-md-5">
@@ -3703,7 +3280,7 @@
                                             <div class="product-item__inner remove-prodcut-hover py-4 row">
                                                 <div class="product-item__header col-6 col-md-4">
                                                     <div class="mb-2">
-                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="/assets/img/212X200/img5.jpg" alt="Image Description"></a>
+                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="../../assets/img/212X200/img9.jpg" alt="Image Description"></a>
                                                     </div>
                                                 </div>
                                                 <div class="product-item__body col-6 col-md-5">
@@ -3754,7 +3331,7 @@
                                             <div class="product-item__inner remove-prodcut-hover py-4 row">
                                                 <div class="product-item__header col-6 col-md-4">
                                                     <div class="mb-2">
-                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="/assets/img/212X200/img6.jpg" alt="Image Description"></a>
+                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="../../assets/img/212X200/img6.jpg" alt="Image Description"></a>
                                                     </div>
                                                 </div>
                                                 <div class="product-item__body col-6 col-md-5">
@@ -3809,7 +3386,7 @@
                                             <div class="product-item__inner remove-prodcut-hover py-4 row">
                                                 <div class="product-item__header col-6 col-md-2">
                                                     <div class="mb-2">
-                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="/assets/img/212X200/img1.jpg" alt="Image Description"></a>
+                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="../../assets/img/212X200/img9.jpg" alt="Image Description"></a>
                                                     </div>
                                                 </div>
                                                 <div class="product-item__body col-6 col-md-7">
@@ -3860,7 +3437,7 @@
                                             <div class="product-item__inner remove-prodcut-hover py-4 row">
                                                 <div class="product-item__header col-6 col-md-2">
                                                     <div class="mb-2">
-                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="/assets/img/212X200/img2.jpg" alt="Image Description"></a>
+                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="../../assets/img/212X200/img10.jpg" alt="Image Description"></a>
                                                     </div>
                                                 </div>
                                                 <div class="product-item__body col-6 col-md-7">
@@ -3911,7 +3488,7 @@
                                             <div class="product-item__inner remove-prodcut-hover py-4 row">
                                                 <div class="product-item__header col-6 col-md-2">
                                                     <div class="mb-2">
-                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="/assets/img/212X200/img3.jpg" alt="Image Description"></a>
+                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="../../assets/img/212X200/img9.jpg" alt="Image Description"></a>
                                                     </div>
                                                 </div>
                                                 <div class="product-item__body col-6 col-md-7">
@@ -3962,7 +3539,7 @@
                                             <div class="product-item__inner remove-prodcut-hover py-4 row">
                                                 <div class="product-item__header col-6 col-md-2">
                                                     <div class="mb-2">
-                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="/assets/img/212X200/img4.jpg" alt="Image Description"></a>
+                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="../../assets/img/212X200/img4.jpg" alt="Image Description"></a>
                                                     </div>
                                                 </div>
                                                 <div class="product-item__body col-6 col-md-7">
@@ -4013,7 +3590,7 @@
                                             <div class="product-item__inner remove-prodcut-hover py-4 row">
                                                 <div class="product-item__header col-6 col-md-2">
                                                     <div class="mb-2">
-                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="/assets/img/212X200/img5.jpg" alt="Image Description"></a>
+                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="../../assets/img/212X200/img10.jpg" alt="Image Description"></a>
                                                     </div>
                                                 </div>
                                                 <div class="product-item__body col-6 col-md-7">
@@ -4064,7 +3641,7 @@
                                             <div class="product-item__inner remove-prodcut-hover py-4 row">
                                                 <div class="product-item__header col-6 col-md-2">
                                                     <div class="mb-2">
-                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="/assets/img/212X200/img6.jpg" alt="Image Description"></a>
+                                                        <a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="../../assets/img/212X200/img6.jpg" alt="Image Description"></a>
                                                     </div>
                                                 </div>
                                                 <div class="product-item__body col-6 col-md-7">
@@ -4154,32 +3731,32 @@
                             }]'>
                             <div class="js-slide">
                                 <a href="#" class="link-hover__brand">
-                                    <img class="img-fluid m-auto max-height-50" src="/assets/img/200X60/img1.png" alt="Image Description">
+                                    <img class="img-fluid m-auto max-height-50" src="../../assets/img/200X60/img1.png" alt="Image Description">
                                 </a>
                             </div>
                             <div class="js-slide">
                                 <a href="#" class="link-hover__brand">
-                                    <img class="img-fluid m-auto max-height-50" src="/assets/img/200X60/img2.png" alt="Image Description">
+                                    <img class="img-fluid m-auto max-height-50" src="../../assets/img/200X60/img2.png" alt="Image Description">
                                 </a>
                             </div>
                             <div class="js-slide">
                                 <a href="#" class="link-hover__brand">
-                                    <img class="img-fluid m-auto max-height-50" src="/assets/img/200X60/img3.png" alt="Image Description">
+                                    <img class="img-fluid m-auto max-height-50" src="../../assets/img/200X60/img3.png" alt="Image Description">
                                 </a>
                             </div>
                             <div class="js-slide">
                                 <a href="#" class="link-hover__brand">
-                                    <img class="img-fluid m-auto max-height-50" src="/assets/img/200X60/img4.png" alt="Image Description">
+                                    <img class="img-fluid m-auto max-height-50" src="../../assets/img/200X60/img4.png" alt="Image Description">
                                 </a>
                             </div>
                             <div class="js-slide">
                                 <a href="#" class="link-hover__brand">
-                                    <img class="img-fluid m-auto max-height-50" src="/assets/img/200X60/img5.png" alt="Image Description">
+                                    <img class="img-fluid m-auto max-height-50" src="../../assets/img/200X60/img5.png" alt="Image Description">
                                 </a>
                             </div>
                             <div class="js-slide">
                                 <a href="#" class="link-hover__brand">
-                                    <img class="img-fluid m-auto max-height-50" src="/assets/img/200X60/img6.png" alt="Image Description">
+                                    <img class="img-fluid m-auto max-height-50" src="../../assets/img/200X60/img6.png" alt="Image Description">
                                 </a>
                             </div>
                         </div>
@@ -4203,7 +3780,7 @@
                             <ul class="list-unstyled products-group">
                                 <li class="product-item product-item__list row no-gutters mb-6 remove-divider">
                                     <div class="col-auto">
-                                        <a href="../shop/single-product-fullwidth.html" class="d-block width-75 text-center"><img class="img-fluid" src="/assets/img/75X75/img1.jpg" alt="Image Description"></a>
+                                        <a href="../shop/single-product-fullwidth.html" class="d-block width-75 text-center"><img class="img-fluid" src="../../assets/img/75X75/img1.jpg" alt="Image Description"></a>
                                     </div>
                                     <div class="col pl-4 d-flex flex-column">
                                         <h5 class="product-item__title mb-0"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Purple Wireless Headphones Solo 2 HD</a></h5>
@@ -4214,7 +3791,7 @@
                                 </li>
                                 <li class="product-item product-item__list row no-gutters mb-6 remove-divider">
                                     <div class="col-auto">
-                                        <a href="../shop/single-product-fullwidth.html" class="d-block width-75 text-center"><img class="img-fluid" src="/assets/img/75X75/img2.jpg" alt="Image Description"></a>
+                                        <a href="../shop/single-product-fullwidth.html" class="d-block width-75 text-center"><img class="img-fluid" src="../../assets/img/75X75/img2.jpg" alt="Image Description"></a>
                                     </div>
                                     <div class="col pl-4 d-flex flex-column">
                                         <h5 class="product-item__title mb-0"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Powerbank 1130 mAh Blue</a></h5>
@@ -4225,7 +3802,7 @@
                                 </li>
                                 <li class="product-item product-item__list row no-gutters mb-6 remove-divider">
                                     <div class="col-auto">
-                                        <a href="../shop/single-product-fullwidth.html" class="d-block width-75 text-center"><img class="img-fluid" src="/assets/img/75X75/img3.jpg" alt="Image Description"></a>
+                                        <a href="../shop/single-product-fullwidth.html" class="d-block width-75 text-center"><img class="img-fluid" src="../../assets/img/75X75/img3.jpg" alt="Image Description"></a>
                                     </div>
                                     <div class="col pl-4 d-flex flex-column">
                                         <h5 class="product-item__title mb-0"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Nerocool EN52377 Dead Silence Gaming Cube Case</a></h5>
@@ -4244,7 +3821,7 @@
                         <ul class="list-unstyled products-group">
                             <li class="product-item product-item__list row no-gutters mb-6 remove-divider">
                                 <div class="col-auto">
-                                    <a href="../shop/single-product-fullwidth.html" class="d-block width-75 text-center"><img class="img-fluid" src="/assets/img/75X75/img4.jpg" alt="Image Description"></a>
+                                    <a href="../shop/single-product-fullwidth.html" class="d-block width-75 text-center"><img class="img-fluid" src="../../assets/img/75X75/img4.jpg" alt="Image Description"></a>
                                 </div>
                                 <div class="col pl-4 d-flex flex-column">
                                     <h5 class="product-item__title mb-0"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Yellow Earphones Waterproof with Bluetooth</a></h5>
@@ -4256,7 +3833,7 @@
                             </li>
                             <li class="product-item product-item__list row no-gutters mb-6 remove-divider">
                                 <div class="col-auto">
-                                    <a href="../shop/single-product-fullwidth.html" class="d-block width-75 text-center"><img class="img-fluid" src="/assets/img/75X75/img5.jpg" alt="Image Description"></a>
+                                    <a href="../shop/single-product-fullwidth.html" class="d-block width-75 text-center"><img class="img-fluid" src="../../assets/img/75X75/img5.jpg" alt="Image Description"></a>
                                 </div>
                                 <div class="col pl-4 d-flex flex-column">
                                     <h5 class="product-item__title mb-0"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Camera C430W 4k Waterproof</a></h5>
@@ -4268,7 +3845,7 @@
                             </li>
                             <li class="product-item product-item__list row no-gutters mb-6 remove-divider">
                                 <div class="col-auto">
-                                    <a href="../shop/single-product-fullwidth.html" class="d-block width-75 text-center"><img class="img-fluid" src="/assets/img/75X75/img6.jpg" alt="Image Description"></a>
+                                    <a href="../shop/single-product-fullwidth.html" class="d-block width-75 text-center"><img class="img-fluid" src="../../assets/img/75X75/img6.jpg" alt="Image Description"></a>
                                 </div>
                                 <div class="col pl-4 d-flex flex-column">
                                     <h5 class="product-item__title mb-0"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Smartphone 6S 32GB LTE</a></h5>
@@ -4287,7 +3864,7 @@
                         <ul class="list-unstyled products-group">
                             <li class="product-item product-item__list row no-gutters mb-6 remove-divider">
                                 <div class="col-auto">
-                                    <a href="../shop/single-product-fullwidth.html" class="d-block width-75 text-center"><img class="img-fluid" src="/assets/img/75X75/img7.jpg" alt="Image Description"></a>
+                                    <a href="../shop/single-product-fullwidth.html" class="d-block width-75 text-center"><img class="img-fluid" src="../../assets/img/75X75/img7.jpg" alt="Image Description"></a>
                                 </div>
                                 <div class="col pl-4 d-flex flex-column">
                                     <h5 class="product-item__title mb-0"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Smartwatch 2.0 LTE Wifi Waterproof</a></h5>
@@ -4305,7 +3882,7 @@
                             </li>
                             <li class="product-item product-item__list row no-gutters mb-6 remove-divider">
                                 <div class="col-auto">
-                                    <a href="../shop/single-product-fullwidth.html" class="d-block width-75 text-center"><img class="img-fluid" src="/assets/img/75X75/img8.jpg" alt="Image Description"></a>
+                                    <a href="../shop/single-product-fullwidth.html" class="d-block width-75 text-center"><img class="img-fluid" src="../../assets/img/75X75/img8.jpg" alt="Image Description"></a>
                                 </div>
                                 <div class="col pl-4 d-flex flex-column">
                                     <h5 class="product-item__title mb-0"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">22Mps Camera 6200U with 500GB SDcard</a></h5>
@@ -4323,7 +3900,7 @@
                             </li>
                             <li class="product-item product-item__list row no-gutters mb-6 remove-divider">
                                 <div class="col-auto">
-                                    <a href="../shop/single-product-fullwidth.html" class="d-block width-75 text-center"><img class="img-fluid" src="/assets/img/75X75/img9.jpg" alt="Image Description"></a>
+                                    <a href="../shop/single-product-fullwidth.html" class="d-block width-75 text-center"><img class="img-fluid" src="../../assets/img/75X75/img9.jpg" alt="Image Description"></a>
                                 </div>
                                 <div class="col pl-4 d-flex flex-column">
                                     <h5 class="product-item__title mb-0"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Full Color LaserJet Pro M452dn</a></h5>
@@ -4342,7 +3919,7 @@
                         </ul>
                     </div>
                     <div class="col-wd-3 d-none d-wd-block">
-                        <a href="../shop/shop.html" class="d-block"><img class="img-fluid" src="/assets/img/330X360/img1.jpg" alt="Image Description"></a>
+                        <a href="../shop/shop.html" class="d-block"><img class="img-fluid" src="../../assets/img/330X360/img1.jpg" alt="Image Description"></a>
                     </div>
                 </div>
             </div>
@@ -4526,19 +4103,19 @@
                         <div class="mb-3 mb-md-0">© <a href="#" class="font-weight-bold text-gray-90">Electro</a> - All rights Reserved</div>
                         <div class="text-md-right">
                             <span class="d-inline-block bg-white border rounded p-1">
-                                <img class="max-width-5" src="/assets/img/100X60/img1.jpg" alt="Image Description">
+                                <img class="max-width-5" src="../../assets/img/100X60/img1.jpg" alt="Image Description">
                             </span>
                             <span class="d-inline-block bg-white border rounded p-1">
-                                <img class="max-width-5" src="/assets/img/100X60/img2.jpg" alt="Image Description">
+                                <img class="max-width-5" src="../../assets/img/100X60/img2.jpg" alt="Image Description">
                             </span>
                             <span class="d-inline-block bg-white border rounded p-1">
-                                <img class="max-width-5" src="/assets/img/100X60/img3.jpg" alt="Image Description">
+                                <img class="max-width-5" src="../../assets/img/100X60/img3.jpg" alt="Image Description">
                             </span>
                             <span class="d-inline-block bg-white border rounded p-1">
-                                <img class="max-width-5" src="/assets/img/100X60/img4.jpg" alt="Image Description">
+                                <img class="max-width-5" src="../../assets/img/100X60/img4.jpg" alt="Image Description">
                             </span>
                             <span class="d-inline-block bg-white border rounded p-1">
-                                <img class="max-width-5" src="/assets/img/100X60/img5.jpg" alt="Image Description">
+                                <img class="max-width-5" src="../../assets/img/100X60/img5.jpg" alt="Image Description">
                             </span>
                         </div>
                     </div>
@@ -4839,11 +4416,10 @@
                             <div class="u-sidebar__content u-header-sidebar__content px-4">
                                 <div class="mb-6 border border-width-2 border-color-3 borders-radius-6">
                                     <!-- List -->
-                                    <ul id="sidebarNav" class="list-unstyled mb-0 sidebar-navbar view-all">
-                                        <li><div class="dropdown-title">Browse Categories</div></li>
+                                    <ul id="sidebarNav" class="list-unstyled mb-0 sidebar-navbar">
                                         <li>
-                                            <a class="dropdown-toggle dropdown-toggle-collapse" href="javascript:;" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="sidebarNav1Collapse" data-target="#sidebarNav1Collapse">
-                                                Accessories<span class="text-gray-25 font-size-12 font-weight-normal"> (56)</span>
+                                            <a class="dropdown-toggle dropdown-toggle-collapse dropdown-title" href="javascript:;" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="sidebarNav1Collapse" data-target="#sidebarNav1Collapse">
+                                                Show All Categories
                                             </a>
 
                                             <div id="sidebarNav1Collapse" class="collapse" data-parent="#sidebarNav">
@@ -4864,132 +4440,14 @@
                                             </div>
                                         </li>
                                         <li>
-                                            <a class="dropdown-toggle dropdown-toggle-collapse" href="javascript:;" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="sidebarNav2Collapse" data-target="#sidebarNav2Collapse">
-                                                Cameras & Photography<span class="text-gray-25 font-size-12 font-weight-normal"> (56)</span>
-                                            </a>
+                                            <a class="dropdown-current active" href="#">Smart Phones & Tablets <span class="text-gray-25 font-size-12 font-weight-normal"> (50)</span></a>
 
-                                            <div id="sidebarNav2Collapse" class="collapse" data-parent="#sidebarNav">
-                                                <ul id="sidebarNav2" class="list-unstyled dropdown-list">
-                                                    <!-- Menu List -->
-                                                    <li><a class="dropdown-item" href="#">Cameras<span class="text-gray-25 font-size-12 font-weight-normal"> (56)</span></a></li>
-                                                    <!-- End Menu List -->
-                                                </ul>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-toggle dropdown-toggle-collapse" href="javascript:;" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="sidebarNav3Collapse" data-target="#sidebarNav3Collapse">
-                                                Computer Components<span class="text-gray-25 font-size-12 font-weight-normal"> (56)</span>
-                                            </a>
-
-                                            <div id="sidebarNav3Collapse" class="collapse" data-parent="#sidebarNav">
-                                                <ul id="sidebarNav3" class="list-unstyled dropdown-list">
-                                                    <!-- Menu List -->
-                                                    <li><a class="dropdown-item" href="#">Computer Cases<span class="text-gray-25 font-size-12 font-weight-normal"> (56)</span></a></li>
-                                                    <!-- End Menu List -->
-                                                </ul>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-toggle dropdown-toggle-collapse" href="javascript:;" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="sidebarNav4Collapse" data-target="#sidebarNav4Collapse">
-                                                Gadgets<span class="text-gray-25 font-size-12 font-weight-normal"> (56)</span>
-                                            </a>
-
-                                            <div id="sidebarNav4Collapse" class="collapse" data-parent="#sidebarNav">
-                                                <ul id="sidebarNav4" class="list-unstyled dropdown-list">
-                                                    <!-- Menu List -->
-                                                    <li><a class="dropdown-item" href="#">Smartwatches<span class="text-gray-25 font-size-12 font-weight-normal"> (56)</span></a></li>
-                                                    <li><a class="dropdown-item" href="#">Wearables<span class="text-gray-25 font-size-12 font-weight-normal"> (56)</span></a></li>
-                                                    <!-- End Menu List -->
-                                                </ul>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-toggle dropdown-toggle-collapse" href="javascript:;" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="sidebarNav5Collapse" data-target="#sidebarNav5Collapse">
-                                                Home Entertainment<span class="text-gray-25 font-size-12 font-weight-normal"> (56)</span>
-                                            </a>
-
-                                            <div id="sidebarNav5Collapse" class="collapse" data-parent="#sidebarNav">
-                                                <ul id="sidebarNav5" class="list-unstyled dropdown-list">
-                                                    <!-- Menu List -->
-                                                    <li><a class="dropdown-item" href="#">Tvs<span class="text-gray-25 font-size-12 font-weight-normal"> (56)</span></a></li>
-                                                    <!-- End Menu List -->
-                                                </ul>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-toggle dropdown-toggle-collapse" href="javascript:;" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="sidebarNav6Collapse" data-target="#sidebarNav6Collapse">
-                                                Laptops & Computers<span class="text-gray-25 font-size-12 font-weight-normal"> (56)</span>
-                                            </a>
-
-                                            <div id="sidebarNav6Collapse" class="collapse" data-parent="#sidebarNav">
-                                                <ul id="sidebarNav6" class="list-unstyled dropdown-list">
-                                                    <!-- Menu List -->
-                                                    <li><a class="dropdown-item" href="#">Accessories<span class="text-gray-25 font-size-12 font-weight-normal"> (56)</span></a></li>
-                                                    <li><a class="dropdown-item" href="#">Cameras & Photography<span class="text-gray-25 font-size-12 font-weight-normal"> (11)</span></a></li>
-                                                    <li><a class="dropdown-item" href="#">Computer Components<span class="text-gray-25 font-size-12 font-weight-normal"> (22)</span></a></li>
-                                                    <li><a class="dropdown-item" href="#">Gadgets<span class="text-gray-25 font-size-12 font-weight-normal"> (5)</span></a></li>
-                                                    <li><a class="dropdown-item" href="#">Home Entertainment<span class="text-gray-25 font-size-12 font-weight-normal"> (7)</span></a></li>
-                                                    <li><a class="dropdown-item" href="#">Laptops & Computers<span class="text-gray-25 font-size-12 font-weight-normal"> (42)</span></a></li>
-                                                    <li><a class="dropdown-item" href="#">Printers & Ink<span class="text-gray-25 font-size-12 font-weight-normal"> (63)</span></a></li>
-                                                    <li><a class="dropdown-item" href="#">Smart Phones & Tablets<span class="text-gray-25 font-size-12 font-weight-normal"> (11)</span></a></li>
-                                                    <li><a class="dropdown-item" href="#">TV & Audio<span class="text-gray-25 font-size-12 font-weight-normal"> (66)</span></a></li>
-                                                    <li><a class="dropdown-item" href="#">Video Games & Consoles<span class="text-gray-25 font-size-12 font-weight-normal"> (31)</span></a></li>
-                                                    <!-- End Menu List -->
-                                                </ul>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-toggle dropdown-toggle-collapse" href="javascript:;" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="sidebarNav7Collapse" data-target="#sidebarNav7Collapse">
-                                                Printers & Ink<span class="text-gray-25 font-size-12 font-weight-normal"> (56)</span>
-                                            </a>
-
-                                            <div id="sidebarNav7Collapse" class="collapse" data-parent="#sidebarNav">
-                                                <ul id="sidebarNav7" class="list-unstyled dropdown-list">
-                                                    <!-- Menu List -->
-                                                    <li><a class="dropdown-item" href="#">Printers<span class="text-gray-25 font-size-12 font-weight-normal"> (56)</span></a></li>
-                                                    <!-- End Menu List -->
-                                                </ul>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-toggle dropdown-toggle-collapse" href="javascript:;" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="sidebarNav8Collapse" data-target="#sidebarNav8Collapse">
-                                                Smart Phones & Tablets<span class="text-gray-25 font-size-12 font-weight-normal"> (56)</span>
-                                            </a>
-
-                                            <div id="sidebarNav8Collapse" class="collapse" data-parent="#sidebarNav">
-                                                <ul id="sidebarNav8" class="list-unstyled dropdown-list">
-                                                    <!-- Menu List -->
-                                                    <li><a class="dropdown-item" href="#">Smartphones<span class="text-gray-25 font-size-12 font-weight-normal"> (56)</span></a></li>
-                                                    <li><a class="dropdown-item" href="#">Tablets<span class="text-gray-25 font-size-12 font-weight-normal"> (56)</span></a></li>
-                                                    <!-- End Menu List -->
-                                                </ul>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-toggle dropdown-toggle-collapse" href="javascript:;" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="sidebarNav9Collapse" data-target="#sidebarNav9Collapse">
-                                                TV & Audio<span class="text-gray-25 font-size-12 font-weight-normal"> (56)</span>
-                                            </a>
-
-                                            <div id="sidebarNav9Collapse" class="collapse" data-parent="#sidebarNav">
-                                                <ul id="sidebarNav9" class="list-unstyled dropdown-list">
-                                                    <!-- Menu List -->
-                                                    <li><a class="dropdown-item" href="#">Audio Speakers<span class="text-gray-25 font-size-12 font-weight-normal"> (56)</span></a></li>
-                                                    <!-- End Menu List -->
-                                                </ul>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-toggle dropdown-toggle-collapse" href="javascript:;" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="sidebarNav10Collapse" data-target="#sidebarNav10Collapse">
-                                                Video Games & Consoles<span class="text-gray-25 font-size-12 font-weight-normal"> (56)</span>
-                                            </a>
-
-                                            <div id="sidebarNav10Collapse" class="collapse" data-parent="#sidebarNav">
-                                                <ul id="sidebarNav10" class="list-unstyled dropdown-list">
-                                                    <!-- Menu List -->
-                                                    <li><a class="dropdown-item" href="#">Game Consoles<span class="text-gray-25 font-size-12 font-weight-normal"> (56)</span></a></li>
-                                                    <!-- End Menu List -->
-                                                </ul>
-                                            </div>
+                                            <ul class="list-unstyled dropdown-list">
+                                                <!-- Menu List -->
+                                                <li><a class="dropdown-item" href="#">Smartphones<span class="text-gray-25 font-size-12 font-weight-normal"> (30)</span></a></li>
+                                                <li><a class="dropdown-item" href="#">Tablets<span class="text-gray-25 font-size-12 font-weight-normal"> (20)</span></a></li>
+                                                <!-- End Menu List -->
+                                            </ul>
                                         </li>
                                     </ul>
                                     <!-- End List -->
@@ -5180,7 +4638,7 @@
                                             <div class="row">
                                                 <div class="col-auto">
                                                     <a href="../shop/single-product-fullwidth.html" class="d-block width-75">
-                                                        <img class="img-fluid" src="/assets/img/300X300/img1.jpg" alt="Image Description">
+                                                        <img class="img-fluid" src="../../assets/img/300X300/img1.jpg" alt="Image Description">
                                                     </a>
                                                 </div>
                                                 <div class="col">
@@ -5203,7 +4661,7 @@
                                             <div class="row">
                                                 <div class="col-auto">
                                                     <a href="../shop/single-product-fullwidth.html" class="d-block width-75">
-                                                        <img class="img-fluid" src="/assets/img/300X300/img3.jpg" alt="Image Description">
+                                                        <img class="img-fluid" src="../../assets/img/300X300/img3.jpg" alt="Image Description">
                                                     </a>
                                                 </div>
                                                 <div class="col">
@@ -5225,7 +4683,7 @@
                                             <div class="row">
                                                 <div class="col-auto">
                                                     <a href="../shop/single-product-fullwidth.html" class="d-block width-75">
-                                                        <img class="img-fluid" src="/assets/img/300X300/img5.jpg" alt="Image Description">
+                                                        <img class="img-fluid" src="../../assets/img/300X300/img5.jpg" alt="Image Description">
                                                     </a>
                                                 </div>
                                                 <div class="col">
@@ -5247,7 +4705,7 @@
                                             <div class="row">
                                                 <div class="col-auto">
                                                     <a href="../shop/single-product-fullwidth.html" class="d-block width-75">
-                                                        <img class="img-fluid" src="/assets/img/300X300/img6.jpg" alt="Image Description">
+                                                        <img class="img-fluid" src="../../assets/img/300X300/img6.jpg" alt="Image Description">
                                                     </a>
                                                 </div>
                                                 <div class="col">
@@ -5270,7 +4728,7 @@
                                             <div class="row">
                                                 <div class="col-auto">
                                                     <a href="../shop/single-product-fullwidth.html" class="d-block width-75">
-                                                        <img class="img-fluid" src="/assets/img/300X300/img10.png" alt="Image Description">
+                                                        <img class="img-fluid" src="../../assets/img/300X300/img10.png" alt="Image Description">
                                                     </a>
                                                 </div>
                                                 <div class="col">
@@ -5312,44 +4770,44 @@
         <!-- End Go to Top -->
 
         <!-- JS Global Compulsory -->
-        <script src="/assets/vendor/jquery/dist/jquery.min.js"></script>
-        <script src="/assets/vendor/jquery-migrate/dist/jquery-migrate.min.js"></script>
-        <script src="/assets/vendor/popper.js/dist/umd/popper.min.js"></script>
-        <script src="/assets/vendor/bootstrap/bootstrap.min.js"></script>
+        <script src="../../assets/vendor/jquery/dist/jquery.min.js"></script>
+        <script src="../../assets/vendor/jquery-migrate/dist/jquery-migrate.min.js"></script>
+        <script src="../../assets/vendor/popper.js/dist/umd/popper.min.js"></script>
+        <script src="../../assets/vendor/bootstrap/bootstrap.min.js"></script>
 
         <!-- JS Implementing Plugins -->
-        <script src="/assets/vendor/appear.js"></script>
-        <script src="/assets/vendor/jquery.countdown.min.js"></script>
-        <script src="/assets/vendor/hs-megamenu/src/hs.megamenu.js"></script>
-        <script src="/assets/vendor/svg-injector/dist/svg-injector.min.js"></script>
-        <script src="/assets/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>
-        <script src="/assets/vendor/jquery-validation/dist/jquery.validate.min.js"></script>
-        <script src="/assets/vendor/fancybox/jquery.fancybox.min.js"></script>
-        <script src="/assets/vendor/ion-rangeslider/js/ion.rangeSlider.min.js"></script>
-        <script src="/assets/vendor/typed.js/lib/typed.min.js"></script>
-        <script src="/assets/vendor/slick-carousel/slick/slick.js"></script>
-        <script src="/assets/vendor/appear.js"></script>
-        <script src="/assets/vendor/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
+        <script src="../../assets/vendor/appear.js"></script>
+        <script src="../../assets/vendor/jquery.countdown.min.js"></script>
+        <script src="../../assets/vendor/hs-megamenu/src/hs.megamenu.js"></script>
+        <script src="../../assets/vendor/svg-injector/dist/svg-injector.min.js"></script>
+        <script src="../../assets/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>
+        <script src="../../assets/vendor/jquery-validation/dist/jquery.validate.min.js"></script>
+        <script src="../../assets/vendor/fancybox/jquery.fancybox.min.js"></script>
+        <script src="../../assets/vendor/ion-rangeslider/js/ion.rangeSlider.min.js"></script>
+        <script src="../../assets/vendor/typed.js/lib/typed.min.js"></script>
+        <script src="../../assets/vendor/slick-carousel/slick/slick.js"></script>
+        <script src="../../assets/vendor/appear.js"></script>
+        <script src="../../assets/vendor/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
 
         <!-- JS Electro -->
-        <script src="/assets/js/hs.core.js"></script>
-        <script src="/assets/js/components/hs.countdown.js"></script>
-        <script src="/assets/js/components/hs.header.js"></script>
-        <script src="/assets/js/components/hs.hamburgers.js"></script>
-        <script src="/assets/js/components/hs.unfold.js"></script>
-        <script src="/assets/js/components/hs.focus-state.js"></script>
-        <script src="/assets/js/components/hs.malihu-scrollbar.js"></script>
-        <script src="/assets/js/components/hs.validation.js"></script>
-        <script src="/assets/js/components/hs.fancybox.js"></script>
-        <script src="/assets/js/components/hs.onscroll-animation.js"></script>
-        <script src="/assets/js/components/hs.slick-carousel.js"></script>
-        <script src="/assets/js/components/hs.quantity-counter.js"></script>
-        <script src="/assets/js/components/hs.range-slider.js"></script>
-        <script src="/assets/js/components/hs.show-animation.js"></script>
-        <script src="/assets/js/components/hs.svg-injector.js"></script>
-        <script src="/assets/js/components/hs.scroll-nav.js"></script>
-        <script src="/assets/js/components/hs.go-to.js"></script>
-        <script src="/assets/js/components/hs.selectpicker.js"></script>
+        <script src="../../assets/js/hs.core.js"></script>
+        <script src="../../assets/js/components/hs.countdown.js"></script>
+        <script src="../../assets/js/components/hs.header.js"></script>
+        <script src="../../assets/js/components/hs.hamburgers.js"></script>
+        <script src="../../assets/js/components/hs.unfold.js"></script>
+        <script src="../../assets/js/components/hs.focus-state.js"></script>
+        <script src="../../assets/js/components/hs.malihu-scrollbar.js"></script>
+        <script src="../../assets/js/components/hs.validation.js"></script>
+        <script src="../../assets/js/components/hs.fancybox.js"></script>
+        <script src="../../assets/js/components/hs.onscroll-animation.js"></script>
+        <script src="../../assets/js/components/hs.slick-carousel.js"></script>
+        <script src="../../assets/js/components/hs.quantity-counter.js"></script>
+        <script src="../../assets/js/components/hs.range-slider.js"></script>
+        <script src="../../assets/js/components/hs.show-animation.js"></script>
+        <script src="../../assets/js/components/hs.svg-injector.js"></script>
+        <script src="../../assets/js/components/hs.scroll-nav.js"></script>
+        <script src="../../assets/js/components/hs.go-to.js"></script>
+        <script src="../../assets/js/components/hs.selectpicker.js"></script>
 
         <!-- JS Plugins Init. -->
         <script>

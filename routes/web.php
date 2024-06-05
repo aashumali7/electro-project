@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('home');
-});
+})->name('homeroute');
 
 Route::prefix('shop')->group(function () {
 
@@ -13,6 +13,9 @@ Route::prefix('shop')->group(function () {
     });
     Route::get('/shop-grid',function(){
             return view('shop/shop-grid'); //shop-grid.blade.php
+    });
+    Route::get('/single-product-extend',function(){
+            return view('shop/single-product-extend'); //single-product-extend.blade.php
     });
     Route::get('/my-account',function(){
             return view('shop/my-account'); //my-account.blade.php
@@ -34,7 +37,7 @@ Route::prefix('shop')->group(function () {
 Route::get('/about',function(){
        return view('about'); //about.blade.php
 });
-Route::get('/faq',function(){
+Route::get('/faq',function(){   
        return view('faq'); //faq.blade.php
 });
 Route::get('/store-directory',function(){

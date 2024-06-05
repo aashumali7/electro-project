@@ -6895,30 +6895,30 @@
                             data-arrow-left-classes="fa fa-angle-left right-1"
                             data-arrow-right-classes="fa fa-angle-right right-0"
                             data-responsive='[{
-                              "breakpoint": 1400,
-                              "settings": {
+                                "breakpoint": 1400,
+                                "settings": {
                                 "slidesToShow": 6
-                              }
+                                }
                             }, {
                                 "breakpoint": 1200,
                                 "settings": {
-                                  "slidesToShow": 4
+                                    "slidesToShow": 4
                                 }
                             }, {
-                              "breakpoint": 992,
-                              "settings": {
+                                "breakpoint": 992,
+                                "settings": {
                                 "slidesToShow": 3
-                              }
+                                }
                             }, {
-                              "breakpoint": 768,
-                              "settings": {
+                                "breakpoint": 768,
+                                "settings": {
                                 "slidesToShow": 2
-                              }
+                                }
                             }, {
-                              "breakpoint": 554,
-                              "settings": {
+                                "breakpoint": 554,
+                                "settings": {
                                 "slidesToShow": 2
-                              }
+                                }
                             }]'>
                             <div class="js-slide products-group">
                                 <div class="product-item">

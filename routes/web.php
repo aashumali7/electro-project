@@ -11,6 +11,9 @@ Route::prefix('shop')->group(function () {
     Route::get('/cart',function(){
         return view('shop/cart'); //shop/cart.blade.php
     });
+    Route::get('/wishlist',function(){
+        return view('shop/wishlist'); //shop-wishlist.blade.php
+    });
     Route::get('/shop-grid',function(){
             return view('shop/shop-grid'); //shop-grid.blade.php
     });

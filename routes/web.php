@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 
+  /*   Frontend Routes */
+
 Route::get('/', function () {
     return view('home');
 })->name('homeroute');
@@ -78,4 +80,23 @@ Route::get('/contact-v2',function(){
 });
 Route::get('/home-v3-fullcolor',function(){
        return view('home-v3-fullcolor'); //home-v3-fullcolor.blade.php
+});
+
+  /*  backend/Admin Routes */
+
+Route::prefix('admin')->group(function () {
+       Route::get('/', function () {
+              return view('admin.login'); //login.blade.php
+       });
+       Route::get('/login', function () {
+              return view('admin.login'); //login.blade.php
+       });
+       Route::get('/dashboard', function () {
+              return view('admin.dashboard'); //dashboard.blade.php
+       });
+       /* only for practice */
+
+       Route::get('/general', function () {
+              return view('admin.general'); //general.blade.php
+       });
 });

@@ -99,4 +99,28 @@ Route::prefix('admin')->group(function () {
        Route::get('/general', function () {
               return view('admin.general'); //general.blade.php
        });
+       Route::get('/widgets', function () {
+              return view('admin.widgets'); //widgets.blade.php
+       });
+       Route::get('/top-nav', function () {
+              return view('admin.top-nav'); //top-nav.blade.php
+       });
+       Route::get('/top-nav-sidebar', function () {
+              return view('admin.top-nav-sidebar'); //top-nav-sidebar.blade.php
+       });
+       Route::get('/boxed', function () {
+              return view('admin.boxed'); //boxed.blade.php
+       });
+       Route::get('/fixed-sidebar', function () {
+              return view('admin.fixed-sidebar'); //fixed-sidebar.blade.php
+       });
+       Route::get('/fixed-sidebar-custom', function () {
+              return view('admin.fixed-sidebar-custom'); //fixed-sidebar-custom.blade.php
+       });
+       Route::get('/collapsed-sidebar', function () {
+              return view('admin.collapsed-sidebar'); //collapsed-sidebar.blade.php
+       });
+       Route::get('/calendar', function () {
+              return view('admin.calendar'); //calendar.blade.php
+       });
 });

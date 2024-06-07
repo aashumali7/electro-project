@@ -1,12 +1,15 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\AuthController;
 
   /*   Frontend Routes */
 
 Route::get('/', function () {
     return view('home');
 })->name('homeroute');
+
+Route::post('/login',[AuthController::class,'login'])->name('login');
 
 Route::prefix('shop')->group(function () {
 

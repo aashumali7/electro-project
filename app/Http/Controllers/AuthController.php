@@ -3,11 +3,16 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 use App\Models\User;
 
 class AuthController extends Controller
 {
-    //
+    //1.Property
+
+    //2.Constructor
+
+    //3.Method
     public function login(Request $request){
         //Serverside validation
         //1.validate our incoming data 
@@ -21,10 +26,54 @@ class AuthController extends Controller
         //2.Elequent ORM 
         //ClassName::methodName(actualarg1,actualarg2)
         $user = User::where('email','=',$request->email)->first();
-        
-        dd($user);
-        dd($request->all());
+        $credentials =$request->only('email','password');
+         
+        //check if the user object is not empty 
+        if($user){
+            if(Auth::attempt($credentials)){
+                session(['firstname'=>$user->name]); //associative array ['key'=>'value']
+                session(['lastname'=>$user->surname]);
+                return redirect('/admin/dashboard');
+
+            }else{
+                //empty invalid credentials
+                //dd(' invalid credentials user does not exists');
+
+            //every function return something
+            return back()->with('failed','Invalid Credentials');
+
+            }
+            //try auth attempt
+            //not empty
+            //dd('user exits');
+            //store user information on session variables
+            
+        }else{
+              //every function return something
+              return back()->with('failed','Invalid Credentials');
+        }
+        //dd($user->name);
+        //dd($request->all());
        
         return'login successfull'; 
     } 
+
+    public function logout(Request $request){
+        $request->session()->flush();
+          
+        //every function return something
+        return redirect('/admin');
+    }
+
+    public function dashboard(Request $request){
+        //I can check if the user is not directly accesing this page 
+        if(Auth::check()){
+            //every function return something 
+            return view('admin.dashboard');
+        }else{
+            return redirect('/admin');
+        }
+
+        
+    }
 }

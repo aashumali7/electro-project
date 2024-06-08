@@ -94,9 +94,9 @@ Route::prefix('admin')->group(function () {
        Route::get('/login', function () {
               return view('admin.login'); //login.blade.php
        });
-       Route::get('/dashboard', function () {
-              return view('admin.dashboard'); //dashboard.blade.php
-       });
+       Route::get('/logout',[AuthController::class,'logout']);
+
+       Route::get('/dashboard', [AuthController::class,'dashboard']);
        /* only for practice */
 
        Route::get('/general', function () {

@@ -66,7 +66,8 @@
                         <!-- Content -->
                         <div class="js-scrollbar u-sidebar__body">
                             <div class="u-sidebar__content u-header-sidebar__content">
-                                <form class="js-validate">
+                                <form class="js-validate" method="GET" action="">
+                                    @csrf
                                     <!-- Login -->
                                     <div id="login" data-target-group="idForm">
                                         <!-- Title -->
@@ -154,7 +155,19 @@
                                         </div>
                                         <!-- End Login Buttons -->
                                     </div>
-
+                                </form>
+                                <form class="js-validate" method="POST" action="{{route('customerRegister')}}">
+                                    @csrf
+                                    @if (Session::has('success'))
+                                        <div class="alert alert-success">
+                                            {{Session::get('success')}}
+                                        </div>
+                                    @endif
+                                    @if (Session::has('failed'))
+                                        <div class="alert alert-danger">
+                                            {{Session::get('failed')}}
+                                        </div>
+                                    @endif    
                                     <!-- Signup -->
                                     <div id="signup" style="display: none; opacity: 0;" data-target-group="idForm">
                                         <!-- Title -->
@@ -180,6 +193,11 @@
                                                         data-msg="Please enter a valid email address."
                                                         data-error-class="u-has-error" data-success-class="u-has-success">
                                                 </div>
+                                                @if ($errors->has('email'))
+                                                     <div>
+                                                        <strong>{{ $errors->first('email') }}</strong>
+                                                     </div>
+                                                @endif     
                                             </div>
                                         </div>
                                         <!-- End Input -->
@@ -192,7 +210,7 @@
                                                     <div class="input-group-prepend">
                                                         <span class="input-group-text" id="signupPasswordLabel">
                                                             <span class="fas fa-lock"></span>
-                                                        </span>
+                                                       </span>
                                                     </div>
                                                     <input type="password" class="form-control" name="password"
                                                         id="signupPassword" placeholder="Password" aria-label="Password"
@@ -200,6 +218,11 @@
                                                         data-msg="Your password is invalid. Please try again."
                                                         data-error-class="u-has-error" data-success-class="u-has-success">
                                                 </div>
+                                                @if ($errors->has('password'))
+                                                     <div>
+                                                        <strong>{{ $errors->first('password') }}</strong>
+                                                     </div>
+                                                @endif 
                                             </div>
                                         </div>
                                         <!-- End Input -->
@@ -259,7 +282,8 @@
                                         <!-- End Login Buttons -->
                                     </div>
                                     <!-- End Signup -->
-
+                                </form>     
+                                <form>
                                     <!-- Forgot Password -->
                                     <div id="forgotPassword" style="display: none; opacity: 0;" data-target-group="idForm">
                                         <!-- Title -->

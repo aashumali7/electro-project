@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
+use App\Http\Controllers\CustomerAuthController;
 
   /*   Frontend Routes */
 
@@ -85,7 +86,7 @@ Route::get('/home-v3-fullcolor',function(){
        return view('home-v3-fullcolor'); //home-v3-fullcolor.blade.php
 });
 
-  /*  backend/Admin Routes */
+  /* backend Routes */
 
 Route::prefix('admin')->group(function () {
        Route::get('/', function () {
@@ -127,3 +128,9 @@ Route::prefix('admin')->group(function () {
               return view('admin.calendar'); //calendar.blade.php
        });
 });
+
+  /* frontend Routes */
+
+Route::prefix('customer')->group(function () { // /admin/login
+       Route::post('/register', [CustomerAuthController::class,'register'])->name('customerRegister');
+   });

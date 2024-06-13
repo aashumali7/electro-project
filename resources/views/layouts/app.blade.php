@@ -199,19 +199,29 @@
         });
         </script>
         <script>
+            // everything which i write inside script tag will JavaScript code
             console.log(document.querySelector('button.a_loginsubmit'));
-            document.querySelector('button.a_loginsubmit').addEventListener('click',function(){
-                console.log('hey');
+            document.querySelector('button.a_loginsubmit').addEventListener('click',function(e){ //e means event 
+                e.preventDefault(); //dont reload the page e means event
+                //becaues we want to implement AJAX
+                var email = document.querySelector('input#signinEmail').value;
+                console.log('email >',email);
+                let password = document.querySelector('input#signinPassword').value;
+                console.log('password>', password);
+            
+              //const classObject new ClassName();  //PascalCase 
+                const xhro = new XMLHttpRequest();
+                //co.method()
+                xhro.open('POST',"http://localhost:8000/customer/login");
+                xhro.send();
+
             })
             //javascript code
             //AJAX JS code 
             //var/let/const classObject = new ClassName()
             //xhro = xml http request object
-            const xhro = new XMLHttpRequest();
 
-            //co.method()
-            //xhro.send('POST',"http://localhost:8000/customer/login");
-            //xhro.open();
+            
         </script>
     </body>
 </html>

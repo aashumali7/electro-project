@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 use App\Models\User;
 
 class CustomerAuthController extends Controller
@@ -47,8 +48,22 @@ class CustomerAuthController extends Controller
     }
 
     public function login(Request $request){
-        dd($request->all());
-        //every function return something
-        return "login";
+
+        $user = User::where('email','=',$request->email)->first();
+        //return $user;
+        $credentials = $request->only('email','password');
+        //Check if the user object is not empty
+        if($user){
+            if (Auth::attempt($credentials)) {
+                session(['firstname' => $user->name]);//Associative array ['key'=>'value']
+                session(['lastname' => $user->surname]);
+                return response()->json(['success' => 'You have logged successfully.']);
+            }else{
+                return response()->json(['failed' => 'Invalid credentials'],403);
+            }
+        }else{
+            return response()->json(['failed' => 'Invalid credentials'],403);
+       
+        }
     }
 }

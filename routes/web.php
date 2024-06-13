@@ -133,4 +133,5 @@ Route::prefix('admin')->group(function () {
 
 Route::prefix('customer')->group(function () { // /admin/login
        Route::post('/register', [CustomerAuthController::class,'register'])->name('customerRegister');
+       Route::get('/login', [CustomerAuthController::class,'login'])->name('customerLogin');
    });

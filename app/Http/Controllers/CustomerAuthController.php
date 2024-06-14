@@ -57,7 +57,13 @@ class CustomerAuthController extends Controller
             if (Auth::attempt($credentials)) {
                 session(['firstname' => $user->name]);//Associative array ['key'=>'value']
                 session(['lastname' => $user->surname]);
-                return response()->json(['success' => 'You have logged successfully.']);
+                return response()->json([
+                                            'success' => 'You have logged successfully.',
+                                            'data'=>[
+                                                        'firstname'=>$user->name,
+                                                        'lastname' => $user->surname
+                                                    ]
+                                        ]);
             }else{
                 return response()->json(['failed' => 'Invalid credentials'],403);
             }

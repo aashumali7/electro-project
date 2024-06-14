@@ -202,7 +202,9 @@
             // everything which i write inside script tag will JavaScript code
             console.log(document.querySelector('button.a_loginsubmit'));
             document.querySelector('button.a_loginsubmit').addEventListener('click',function(e){ //e means event 
-                e.preventDefault(); //dont reload the page e means event
+                e.preventDefault(); //dont reload the page //e means event
+
+                document.querySelector("i.ec.ec-close-remove").click()
                 //becaues we want to implement AJAX
                 var email = document.querySelector('input#signinEmail').value;
                 console.log('email >',email);
@@ -212,8 +214,28 @@
               //const classObject new ClassName();  //PascalCase 
                 const xhro = new XMLHttpRequest();
                 //co.method()
-                xhro.open('POST',"http://localhost:8000/customer/login");
-                xhro.send();
+                xhro.open('POST',"http://localhost:8000/customer/login"),true; //Asyncronus request
+                xhro.setRequestHeader('Content-Type', 'application/json;charset=UTF-8');
+                // JS object -> JSON string
+                var data = JSON.stringify({ // {key:value} = JS object
+                    'email':email,
+                    'password':password,
+                })
+            //object.method()
+                xhro.send(data);
+                xhro.onreadystatechange=function(){
+                    if(xhro.readyState === 4 && xhro.status === 200){
+                             //object.property   
+                    console.log(xhro.responseText);
+                            //JSON striing -> JS object
+                    console.log(JSON.parse(xhro.responseText));
+                    var parsedData = JSON.parse(xhro.responseText);
+                    console.log(parsedData.data.firstname);
+                    console.log(parsedData.data.lastname);
+                    document.querySelector('a#sidebarNavToggler').closest('li').innerHTML = 'Welcome '+parsedData.data.firstname+''+parsedData.data.lastname+'<a href="#">Logout</a>';
+                    document.querySelector('a#sidebarNavToggler').innerHTML = 'Welcome '+parsedData.data.firstname+''+parsedData.data.lastname+'<a href="#">Logout</a>';
+                    }
+                }
 
             })
             //javascript code

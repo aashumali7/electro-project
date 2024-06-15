@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\CustomerAuthController;
+use App\Http\Controllers\CategoryController;
 
   /*   Frontend Routes */
 
@@ -98,6 +99,9 @@ Route::prefix('admin')->group(function () {
        Route::get('/logout',[AuthController::class,'logout']);
 
        Route::get('/dashboard', [AuthController::class,'dashboard']);
+       
+       Route::resource('category',CategoryController::class);
+
        /* only for practice */
 
        Route::get('/general', function () {

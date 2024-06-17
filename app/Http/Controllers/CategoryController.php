@@ -19,10 +19,12 @@ class CategoryController extends Controller
 
     /**
      * Show the form for creating a new resource.
+     * Show the form for creating a new category.
      */
     public function create()
     {
         //
+        return view('admin.category.create'); // create.blade.php
     }
 
     /**
@@ -31,6 +33,16 @@ class CategoryController extends Controller
     public function store(Request $request)
     {
         //
+        //ClassName::method()
+        Category::create();
+        $data = $request->only('category_name','description');
+        return redirect('admin/category/create');
+        // I want to store incoming data to categories table
+        
+        //dd($request->all());
+        //1.QueryBuilder
+        //2. Elequent ORM 
+        return 'store';
     }
 
     /**

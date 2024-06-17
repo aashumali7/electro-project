@@ -98,7 +98,7 @@ Route::prefix('admin')->group(function () {
        });
        Route::get('/logout',[AuthController::class,'logout']);
 
-       Route::get('/dashboard', [AuthController::class,'dashboard']);
+       Route::get('/dashboard', [AuthController::class,'dashboard'])->name('admin_dashboard');
        
        Route::resource('category',CategoryController::class);
 

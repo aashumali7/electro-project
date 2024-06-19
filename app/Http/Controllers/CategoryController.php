@@ -33,16 +33,22 @@ class CategoryController extends Controller
     public function store(Request $request)
     {
         //
+        $request->validate([
+                              'category_name'=>'required|unique:categories',
+                              'description'=>'',
+                              'cat_image'=>'mimes:jpg,jpeg,png|max:1024'
+                           ]);//associative array
         //ClassName::method()
-        Category::create();
         $data = $request->only('category_name','description');
-        return redirect('admin/category/create');
+        
+        Category::create( $data);
         // I want to store incoming data to categories table
         
         //dd($request->all());
         //1.QueryBuilder
         //2. Elequent ORM 
-        return 'store';
+        return back()->with('success','Category created successfully');
+        //return redirect('admin/category/create');
     }
 
     /**

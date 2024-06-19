@@ -38,8 +38,20 @@ class CategoryController extends Controller
                               'description'=>'',
                               'cat_image'=>'mimes:jpg,jpeg,png|max:1024'
                            ]);//associative array
+        //dd($request->file('cat_image'));
+        $file = $request->file('cat_image');
+        $dst ='';
+        if($file){
+            $path = $file->store('public/cat_images');
+            //file is coming
+            $filename = basename($path);
+            $dst = '/storage/cat_images/'.$filename;
+        }
+
         //ClassName::method()
         $data = $request->only('category_name','description');
+        $data['picture']=$dst;
+        //dd($data);
         
         Category::create( $data);
         // I want to store incoming data to categories table

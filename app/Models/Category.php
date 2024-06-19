@@ -11,7 +11,8 @@ class Category extends Model
     //1. property 
     protected $fillable = [
          'category_name',
-         'description'
+         'description',
+         'picture'
     ];
 
     //2. contructor

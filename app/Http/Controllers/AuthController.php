@@ -9,10 +9,21 @@ use App\Models\User;
 class AuthController extends Controller
 {
     //1.Property
-
+    
     //2.Constructor
-
+    
     //3.Method
+    public function dashboard(Request $request){
+        //I can check if the user is not directly accesing this page 
+        if(Auth::check()){
+            //every function return something 
+            return view('admin.dashboard');
+        }else{
+            return redirect('/admin');
+        }
+    
+        
+    }
     public function login(Request $request){
         //Serverside validation
         //1.validate our incoming data 
@@ -65,15 +76,4 @@ class AuthController extends Controller
         return redirect('/admin');
     }
 
-    public function dashboard(Request $request){
-        //I can check if the user is not directly accesing this page 
-        if(Auth::check()){
-            //every function return something 
-            return view('admin.dashboard');
-        }else{
-            return redirect('/admin');
-        }
-
-        
-    }
 }

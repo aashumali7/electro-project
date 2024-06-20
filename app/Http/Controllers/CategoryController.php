@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use App\Models\Category;
 use Illuminate\Http\Request;
 
+//Class ChildClass extends Parent{}
+//single Inheritance
 class CategoryController extends Controller
 {
     /**

@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\CustomerAuthController;
 use App\Http\Controllers\CategoryController;
+use App\Http\Middleware\AdminAuth;
 
   /*   Frontend Routes */
 
@@ -89,13 +90,13 @@ Route::get('/home-v3-fullcolor',function(){
 
   /* backend Routes */
 
-Route::prefix('admin')->group(function () {
+Route::prefix('admin')->middleware(AdminAuth::class)->group(function () { 
        Route::get('/', function () {
               return view('admin.login'); //login.blade.php
-       });
+       })->withoutMiddleware([AdminAuth::class]);
        Route::get('/login', function () {
               return view('admin.login'); //login.blade.php
-       });
+       })->withoutMiddleware([AdminAuth::class]);
        Route::get('/logout',[AuthController::class,'logout']);
 
        Route::get('/dashboard', [AuthController::class,'dashboard'])->name('admin_dashboard');

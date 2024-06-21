@@ -14,8 +14,13 @@ class CategoryController extends Controller
      */
     public function index()
     {
-        //
-        return view('admin.category.index');// admin/category/index.blade.php
+        //Get category from db and pass the category to view
+        //1.querybuilder
+        //2.elequent ORM (object relation mapper)
+        $categories = Category::all();
+        //dd($categories);
+
+        return view('admin.category.index',['categories'=>$categories]);// admin/category/index.blade.php
         //return "index";
     }
 

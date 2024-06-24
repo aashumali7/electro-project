@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
+use App\Http\Controllers\BrandController;
 use App\Http\Controllers\CustomerAuthController;
 use App\Http\Controllers\CategoryController;
 use App\Http\Middleware\AdminAuth;
@@ -102,6 +103,7 @@ Route::prefix('admin')->middleware(AdminAuth::class)->group(function () {
        Route::get('/dashboard', [AuthController::class,'dashboard'])->name('admin_dashboard');
        
        Route::resource('category',CategoryController::class);
+       Route::resource('brands',BrandController::class);
 
        /* only for practice */
 

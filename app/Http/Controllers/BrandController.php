@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Brand;
 use Illuminate\Http\Request;
+use League\CommonMark\Extension\CommonMark\Node\Inline\Strong;
 
 class BrandController extends Controller
 {
@@ -31,15 +32,31 @@ class BrandController extends Controller
      * Show the form for creating a new resource.
      */
     public function create()
-    {
+    {  
+        return view('/admin.brands.create');
         //
     }
 
     /**
      * Store a newly created resource in storage.
      */
-    public function store(Request $request)
+    public function store(Request $request) //POST method
     {
+        //how you can receive the incoming data
+        //with $request object
+        //dd($request->all());
+        $request->validate([
+                                 'brand_name'=>'requried|unique:brands',
+                                 'brand_logo'=>'mimes:jpg,jpeg,png',
+                                 'seo_meta_title'=>'',
+                                 'seo_meta_desc'=>''
+                           ]);
+
+        //store into brands table
+        //elequent
+        $data =$request->only('brand_name','brand_logo',"seo_meta_title","seo_meta_desc");
+        Brand::create($data);
+        return back();
         //
     }
 

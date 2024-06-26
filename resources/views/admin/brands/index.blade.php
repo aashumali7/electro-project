@@ -7,7 +7,7 @@
                     <h1 class="m-0">All Brands</h1>
                 </div><!-- /.col -->
                 <div class="col-sm-6 text-right">
-                    <a href='{{route("category.create")}}' class="btn btn-primary">Add New Brands</a>
+                    <a href='{{route("brands.create")}}' class="btn btn-primary">Add New Brands</a>
                 </div>
                 <!-- /.col -->
             </div><!-- /.row -->

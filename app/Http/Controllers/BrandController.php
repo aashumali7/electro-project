@@ -24,7 +24,7 @@ class BrandController extends Controller
                             'logo'=>''
                         ]
                   ];//AOA Array of Arrays
-        return view('/admin.brands.index',['brands'=>$brands]); //'index';
+        return view('/admin.brands.index',['brands'=>$brands]); //'index');
         //
     }
 
@@ -33,7 +33,7 @@ class BrandController extends Controller
      */
     public function create()
     {  
-        return view('/admin.brands.create');
+        return view('admin.brands.create');
         //
     }
 
@@ -46,17 +46,28 @@ class BrandController extends Controller
         //with $request object
         //dd($request->all());
         $request->validate([
-                                 'brand_name'=>'requried|unique:brands',
-                                 'brand_logo'=>'mimes:jpg,jpeg,png',
-                                 'seo_meta_title'=>'',
-                                 'seo_meta_desc'=>''
-                           ]);
+                                'brand_name' => 'required|unique:brands',
+                                'brand_logo' => 'required|mimes:jpg,jpeg,png|max:1024|dimensions:width=120,height=80',
+                                'seo_meta_title' => 'required',
+                                'seo_meta_desc' => 'required'
+                          ]);
+ 
+         //file uploading logic
+        $file = $request->file('brand_logo');
+        $dst ='';
+         if($file){
+            $path = $file->store('public/brand_images');
+            //file is coming
+            $filename = basename($path);
+            $dst = '/storage/brand_images/'.$filename;
+        }                
 
         //store into brands table
         //elequent
         $data =$request->only('brand_name','brand_logo',"seo_meta_title","seo_meta_desc");
+        $data['brand_logo']=$dst;
         Brand::create($data);
-        return back();
+        return back()->with('success','brand created successfully');
         //
     }
 

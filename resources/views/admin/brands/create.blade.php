@@ -12,20 +12,27 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12">
+                        @if (Session::has('success'))
+                            <div class="alert alert-success alert-dismissible fade show" role="alert">
+                                <strong>{{ Session::get('success') }}</strong>
+                                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                            </div>
+                        @endif
                     <div class="card card-primary">
                         <div class="card-header">
                             <h3 class="card-title">New Brand</h3>
                         </div>
-
-
-                        <form method="POST" action="{{route('brands.store')}}">
+                        <form  action="{{route('brands.store')}}" method="POST" enctype="multipart/form-data">
                             @csrf
                             <div class="card-body">
                                 <div class="form-group">
                                     <label for="brand_name">Brand Name</label>
-                                    <input type="text" name='brand_name' class="form-control" id="brand_name"
+                                    <input type="text" name='brand_name' value="{{old('brand_name')}}" class="form-control" id="brand_name"
                                         placeholder="Enter Brand Name">
                                 </div>
+                                @error('brand_name')
+                                <div class="alert alert-danger">{{$message}}</div>
+                                @enderror
                                 <div class="form-group">
                                     <label for="exampleInputFile">Logo(120×80)</label>
                                     <div class="input-group">
@@ -38,15 +45,24 @@
                                         </div>
                                     </div>
                                 </div>
+                                @error('brand_logo')
+                                <div class="alert alert-danger">{{$message}}</div>
+                                @enderror
                                 <div class="form-group">
                                     <label for="seo_meta_title"> SEO - Meta Title</label>
-                                    <input name='seo_meta_title'  type="text" class="form-control" id="seo_meta_title"
+                                    <input name='seo_meta_title' value="{{old('seo_meta_title')}}"  type="text" class="form-control" id="seo_meta_title"
                                         placeholder="title">
                                 </div>
+                                @error('seo_meta_title')
+                                <div class="alert alert-danger">{{$message}}</div>
+                                @enderror
                                 <div class="form-group">
                                     <label for="seo_meta_desc">SEO - Meta Description</label>
-                                    <textarea name='seo_meta_desc' class="form-control" rows="5" cols="" id="seo_meta_desc" ></textarea>
+                                    <textarea name='seo_meta_desc' class="form-control" rows="5" cols="" id="seo_meta_desc" >{{old('seo_meta_desc')}}</textarea>
                                 </div>
+                                @error('seo_meta_desc')
+                                <div class="alert alert-danger">{{$message}}</div>
+                                @enderror
                                 </div>
                             </div>
 

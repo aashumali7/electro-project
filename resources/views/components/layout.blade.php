@@ -153,6 +153,15 @@
             }
             });
         });
+            document.querySelector('img#preview').addEventListener('onchange',(e)=>{
+                    console.log('hey')
+            });
+            ImgInp.onchange() = evt => {
+                const [file] = ImgInp.files
+                if (file) {
+                    preview.src = URL.createObjectURL(file)
+                }
+            }
     </script>
 
 </body>

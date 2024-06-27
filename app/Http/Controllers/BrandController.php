@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Brand;
 use Illuminate\Http\Request;
-use League\CommonMark\Extension\CommonMark\Node\Inline\Strong;
+use Illuminate\Support\Facades\Storage;
 
 class BrandController extends Controller
 {
@@ -13,62 +13,54 @@ class BrandController extends Controller
      */
     public function index()
     {
-        $brands = [     [
-                            'id'=>'1',
-                            'name'=>'HP',
-                            'logo'=>''
-                        ],
-                        [   
-                            'id'=>'2',
-                            'name'=>'Dell',
-                            'logo'=>''
-                        ]
-                  ];//AOA Array of Arrays
-        return view('/admin.brands.index',['brands'=>$brands]); //'index');
         //
+        $brands = Brand::all();// AOO Array of Objects
+        
+        
+        return view('admin.brands.index',['brands'=>$brands]);//'index';
     }
 
     /**
      * Show the form for creating a new resource.
      */
     public function create()
-    {  
-        return view('admin.brands.create');
+    {
         //
+        return view('admin.brands.create');//'create';
     }
 
     /**
      * Store a newly created resource in storage.
      */
-    public function store(Request $request) //POST method
+    public function store(Request $request) // POST method
     {
-        //how you can receive the incoming data
-        //with $request object
+    
         //dd($request->all());
-        $request->validate([
-                                'brand_name' => 'required|unique:brands',
-                                'brand_logo' => 'required|mimes:jpg,jpeg,png|max:1024|dimensions:width=120,height=80',
-                                'seo_meta_title' => 'required',
-                                'seo_meta_desc' => 'required'
-                          ]);
- 
-         //file uploading logic
+        //These are server side validation
+       $request->validate([
+                                'brand_name'=>'required|unique:brands',
+                                'brand_logo' => 'required|mimes:jpg,jpeg,png|max:1024|dimensions:width=120,height=80',// 172KB /, 1024kb = 1mb
+                                'seo_meta_title'=>'required',
+                                'seo_meta_desc'=>'required',
+                            ]); //PHP Associative Array
+        //File uploading logic
         $file = $request->file('brand_logo');
-        $dst ='';
-         if($file){
+        $dst='';
+        if($file){
             $path = $file->store('public/brand_images');
-            //file is coming
+            //The file is comming
+             // Extract the filename from the path
             $filename = basename($path);
-            $dst = '/storage/brand_images/'.$filename;
-        }                
+            $dst='/storage/brand_images/'.$filename;
+            //dd( );
+        }                  
 
-        //store into brands table
-        //elequent
-        $data =$request->only('brand_name','brand_logo',"seo_meta_title","seo_meta_desc");
+        //Eleqouent 
+        $data = $request->only('brand_name','brand_logo','seo_meta_title','seo_meta_desc');
+        //dd($data);
         $data['brand_logo']=$dst;
         Brand::create($data);
-        return back()->with('success','brand created successfully');
-        //
+        return back()->with('success','Brand created successfully');
     }
 
     /**
@@ -90,7 +82,7 @@ class BrandController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, Brand $brand)
+    public function update(Request $request)
     {
         //
     }
@@ -100,6 +92,19 @@ class BrandController extends Controller
      */
     public function destroy(Brand $brand)
     {
-        //
+    
+        $filename = basename($brand->brand_logo);
+
+        // Define the storage path for the logo
+        $storagePath = 'public/brand_images/' . $filename;
+        //dd($storagePath);
+
+        // Check if the file exists and delete it
+        if (Storage::exists($storagePath)) {
+            Storage::delete($storagePath);
+        }
+        $brand->delete();
+
+        return back();
     }
 }

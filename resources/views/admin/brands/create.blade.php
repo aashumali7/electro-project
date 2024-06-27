@@ -44,6 +44,7 @@
                                             <span class="input-group-text">Upload</span>
                                         </div>
                                     </div>
+                                    <img id='preview' src="#" alt="your image"/>
                                 </div>
                                 @error('brand_logo')
                                 <div class="alert alert-danger">{{$message}}</div>

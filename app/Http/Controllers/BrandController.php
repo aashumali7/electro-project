@@ -68,7 +68,8 @@ class BrandController extends Controller
      */
     public function show(Brand $brand)
     {
-        //
+        //every function return something
+        return 'show';
     }
 
     /**
@@ -76,15 +77,42 @@ class BrandController extends Controller
      */
     public function edit(Brand $brand)
     {
-        //
+                   //admin/brands/edit.blade.php
+        return view('admin.brands.edit',['brand'=>$brand]);
     }
 
-    /**
+    /**s
      * Update the specified resource in storage.
      */
-    public function update(Request $request)
+    public function update(Request $request,Brand $brand)
     {
-        //
+        //validation
+        $request->validate([
+            'brand_name'=>'required|unique:brands',
+            'brand_logo' => 'mimes:jpg,jpeg,png|max:1024|dimensions:width=120,height=80',// 172KB /, 1024kb = 1mb
+            'seo_meta_title'=>'required',
+            'seo_meta_desc'=>'required',
+        ]); //PHP Associative Array
+   
+        //dd();
+        //dd($brand->brand_name);
+        $file = $request->file('brand_logo');
+        $dst='';
+        if($file){
+            $path = $file->store('public/brand_images');
+            //The file is comming
+             // Extract the filename from the path
+            $filename = basename($path);
+            $dst='/storage/brand_images/'.$filename;
+            //dd( );
+        } 
+        $brand->update([
+                'brand_name'=>$request->input('brand_name'),
+                'brand_logo'=>$dst==''?$brand->brand_logo:'',
+                'seo_meta_title'=>$request->input('seo_meta_title'),
+                'seo_meta_desc'=>$request->input('seo_meta_desc')
+        ]);
+        return back()->with('success','Brand Update Succesfully');
     }
 
     /**

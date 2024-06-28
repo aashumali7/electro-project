@@ -45,13 +45,16 @@
                                 <img src="{{$brand->brand_logo}}"/>
                             </td>
                             <td>
-                                <button class="btn btn-outline-info rounded-circle">
+                                <a href="/admin/brands/{{$brand->id}}/edit" class="btn btn-outline-success rounded-circle btn-sm " data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                    <i class="fa-regular fa-eye"></i>
+                                </a>
+                                <a href="/admin/brands/{{$brand->id}}/edit" class="btn btn-outline-info rounded-circle btn-sm">
                                     <i class="fa-regular fa-pen-to-square"></i>
-                                </button>
+                                </a>
                                 <form method="POST" action="{{route('brands.destroy',['brand' => $brand->id] )}}">
                                     @csrf
                                     @method('DELETE')
-                                    <button class="btn btn-outline-danger rounded-circle" onclick="return confirm('Do You Want to Delete ??')">
+                                    <button class="btn btn-outline-danger rounded-circle btn-sm" onclick="return confirm('Do You Want to Delete ??')">
                                         <i class="fa-solid fa-trash"></i>
                                     </button> 
                                 </form>

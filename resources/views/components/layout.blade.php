@@ -41,7 +41,7 @@
 
 <body class="hold-transition sidebar-mini layout-fixed">
     <!-- Modal -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal fade a_mymodel" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -49,11 +49,10 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        ...
+                        
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Save changes</button>
                     </div>
                 </div>
             </div>
@@ -138,7 +137,7 @@
     <!-- AdminLTE for demo purposes -->
     <script src="{{url('/')}}/dist/js/demo.js"></script>
     <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
-    <script src="{{url('/')}}/dist/js/pages/dashboard.js"></script>
+    <!-- <script src="{{url('/')}}/dist/js/pages/dashboard.js"></script> -->
 
     <script>
     $(function() {
@@ -160,37 +159,33 @@
     });
     </script>
     <script>
-    document.querySelector('.a_delcategory').addEventListener('click', () => {
-        console.log('hey');
-        Swal.fire({
-            title: "Are you sure?",
-            text: "You won't be able to revert this!",
-            icon: "warning",
-            showCancelButton: true,
-            confirmButtonColor: "#3085d6",
-            cancelButtonColor: "#d33",
-            confirmButtonText: "Yes, delete it!"
-        }).then((result) => {
-            if (result.isConfirmed) {
-                Swal.fire({
-                    title: "Deleted!",
-                    text: "Your file has been deleted.",
-                    icon: "success"
-                });
-            }
-        });
-    });
-    document.querySelector('img#preview').addEventListener('onchange', (e) => {
-        console.log('hey')
-    });
-    ImgInp.onchange() = evt => {
-        const [file] = ImgInp.files
-        if (file) {
-            preview.src = URL.createObjectURL(file)
-        }
-    }
+        //select the a_viewbrand
+        //classObject.method1(arg1).method2('arg',callbackfunction) 
+        document.querySelectorAll('.a_viewbrand').forEach(function(cv,idx,arr){
+                console.log(cv);
+            cv.addEventListener('click', (e) => {
+            e.preventDefault();
+           // console.log('ok');
+                    //classObject.method()   
+                    //classObject.property   
+            // console.log(e.target.closest('tr').querySelector('td:first-child').innerText);
+            // console.log(e.target.closest('tr').querySelector('td:nth-child(2)').innerText);
+            // console.log(e.target.closest('tr').querySelector('td:nth-child(3)').innerHTML);
+            let id =e.target.closest('tr').querySelector('td:first-child').innerText;
+            var brand_name = e.target.closest('tr').querySelector('td:nth-child(2)').innerText;
+            var brand_logo = e.target.closest('tr').querySelector('td:nth-child(3)').innerHTML;
+             
+            var content = `<ul style = "list-style:none;">
+                               <li>${id}</li>
+                               <li>${brand_logo}</li>
+                               <li>${brand_name}</li>
+                           </ul>
+                          `
+            document.querySelector('.modal-body').innerHTML = content;
+            document.querySelector('.modal-title').innerText = 'Brand Information';
+            })
+        })
+        
     </script>
-
 </body>
-
 </html>

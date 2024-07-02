@@ -46,6 +46,12 @@
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
+                            <a href="{{ route('products.create')}}" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Add New Product</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
                             <a href="{{ route('category.index')}}" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Category</p>

@@ -16,6 +16,7 @@ return new class extends Migration
             $table->string('product_name');
             $table->text('product_desc');
             $table->string('brand_id');
+            $table->string('unit');
             $table->string('category_id');
             $table->string('mrp');
             $table->string('sell_price');

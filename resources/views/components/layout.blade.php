@@ -16,6 +16,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="https://richtexteditor.com/richtexteditor/rte_theme_default.css"/>
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css" integrity="sha512-nMNlpuaDPrqlEls3IX/Q56H36qvBASwb3ipuo3MxeWbsQB1881ox0cRv7UPTgBlriqoynt35KjEwgGUeUXIPnw==" crossorigin="anonymous" referrerpolicy="no-referrer" />    
 
     <link rel="stylesheet" href="{{url('/')}}/plugins/fontawesome-free/css/all.min.css">
@@ -92,6 +94,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
     </script>
+    <script src="https://richtexteditor.com/richtexteditor/rte.js"></script>
+    <script  src='https://richtexteditor.com/richtexteditor/plugins/all_plugins.js'></script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js" integrity="sha512-2ImtlRlf2VVmiGZsjm9bEyhjGW4dU7B6TNwh/hx/iSByxNENtj3WVE6o/9Lj4TJeVXPi4bnOIMXFIJJAeufa0A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     <script src="{{url('/')}}/plugins/jquery-ui/jquery-ui.min.js"></script>
@@ -195,6 +200,10 @@
         $(document).ready(function() {
             $('.select2').select2();
         });
+
+        var editor1cfg = {}
+        editor1cfg.toolbar = "basic";
+        var editor1 = new RichTextEditor("#product_desc", editor1cfg);
         
     </script>
 </body>

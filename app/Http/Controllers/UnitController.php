@@ -12,7 +12,9 @@ class UnitController extends Controller
      */
     public function index()
     {
-        //
+    // ClassName::method(); 
+        $units = Unit::all();
+        return view('admin.units.index',['units' =>$units]);
     }
 
     /**
@@ -22,7 +24,7 @@ class UnitController extends Controller
     {
         //
        // return "Unit ";
-       return view('admin.units.index'); // index.blade.php
+       return view('admin.units.create'); // index.blade.php
     }
 
     /**
@@ -31,6 +33,8 @@ class UnitController extends Controller
     public function store(Request $request)
     {
         //
+        dd($request->all());
+        return 'unit';
     }
 
     /**

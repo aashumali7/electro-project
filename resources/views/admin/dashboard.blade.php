@@ -23,9 +23,9 @@
                     <!-- small box -->
                     <div class="small-box bg-info">
                         <div class="inner">
-                            <h3>150</h3>
+                            <h3>{{$categories}}</h3>
 
-                            <p>New Orders</p>
+                            <p>Categories</p>
                         </div>
                         <div class="icon">
                             <i class="ion ion-bag"></i>
@@ -38,12 +38,12 @@
                     <!-- small box -->
                     <div class="small-box bg-success">
                         <div class="inner">
-                            <h3>53<sup style="font-size: 20px">%</sup></h3>
+                            <h3>{{$brands}}</h3>
 
-                            <p>Bounce Rate</p>
+                            <p>Brands</p>
                         </div>
                         <div class="icon">
-                            <i class="ion ion-stats-bars"></i>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M16 16V9c0-.566-.434-1-1-1H8L3 3h17c.566 0 1 .434 1 1v17z"/><path d="M11.293 20.707L16 16H9a1 1 0 0 1-1-1V8l-4.707 4.707a1 1 0 0 0-.293.707V20a1 1 0 0 0 1 1h6.586a1 1 0 0 0 .707-.293"/></g></svg>
                         </div>
                         <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
                     </div>
@@ -53,27 +53,24 @@
                     <!-- small box -->
                     <div class="small-box bg-warning">
                         <div class="inner">
-                            <h3>44</h3>
+                            <h3>{{$units}}</h3>
 
-                            <p>User Registrations</p>
+                            <p>Units</p>
                         </div>
                         <div class="icon">
-                            <i class="ion ion-person-add"></i>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 48 48"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M38.5 5.5h-29a4 4 0 0 0-4 4v29a4 4 0 0 0 4 4h29a4 4 0 0 0 4-4v-29a4 4 0 0 0-4-4"/><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M28.004 34.3a2.625 2.625 0 0 1 2.625-2.626h0a2.625 2.625 0 0 1 2.626 2.625V38.5m-5.251-6.826V38.5"/><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M33.255 34.3a2.625 2.625 0 0 1 2.625-2.626h0a2.625 2.625 0 0 1 2.626 2.625V38.5"/><circle cx="9.514" cy="10.391" r=".75" fill="currentColor"/><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M9.514 13.607v6.957m15.391 16.614a2.62 2.62 0 0 1-2.28 1.322h0A2.625 2.625 0 0 1 20 35.875v-1.707a2.625 2.625 0 0 1 2.625-2.625h0c.974 0 1.824.53 2.277 1.318m-7.038-12.297v-4.332a2.625 2.625 0 0 0-2.626-2.625h0a2.625 2.625 0 0 0-2.625 2.625v4.332m0-4.332v-2.625"/><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M17.023 35.037h-3.017a4.49 4.49 0 0 1-4.492-4.492h0a4.49 4.49 0 0 1 4.492-4.491h20.008a4.49 4.49 0 0 0 4.492-4.492h0a4.49 4.49 0 0 0-4.492-4.492H20.822"/><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="m15.321 33.335l1.702 1.702l-1.702 1.702m7.204-17.967l-1.703-1.702l1.703-1.703"/></svg>
                         </div>
                         <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
                     </div>
                 </div>
-                <!-- ./col -->
                 <div class="col-lg-3 col-6">
-                    <!-- small box -->
                     <div class="small-box bg-danger">
                         <div class="inner">
-                            <h3>65</h3>
-
-                            <p>Unique Visitors</p>
+                            <h3>{{$products}}</h3>
+                            <p>Products</p>
                         </div>
                         <div class="icon">
-                            <i class="ion ion-pie-graph"></i>
+                             <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 2048 2048"><path fill="currentColor" d="m1344 2l704 352v785l-128-64V497l-512 256v258l-128 64V753L768 497v227l-128-64V354zm0 640l177-89l-463-265l-211 106zm315-157l182-91l-497-249l-149 75zm-507 654l-128 64v-1l-384 192v455l384-193v144l-448 224L0 1735v-676l576-288l576 288zm-640 710v-455l-384-192v454zm64-566l369-184l-369-185l-369 185zm576-1l448-224l448 224v527l-448 224l-448-224zm384 576v-305l-256-128v305zm384-128v-305l-256 128v305zm-320-288l241-121l-241-120l-241 120z"/></svg>
                         </div>
                         <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
                     </div>

@@ -7,7 +7,7 @@
                     <h1 class="m-0">All Units</h1>
                 </div><!-- /.col -->
                 <div class="col-sm-6 text-right">
-                    <a href='{{route("brands.create")}}' class="btn btn-primary">Add New Unit</a>
+                    <a href='{{route("unit.create")}}' class="btn btn-primary">Add New Unit</a>
                 </div>
                 <!-- /.col -->
             </div><!-- /.row -->
@@ -21,27 +21,41 @@
                 <div class="col-12">
                 </div>
             </div>
-        <div class="card">
-              <div class="card-header">
-                <h3 class="card-title">DataTable with default features</h3>
-              </div>
-              <!-- /.card-header -->
-              <div class="card-body">
-                <table id="example1" class="table table-bordered table-striped">
-                  <thead>
-                    <tr>
-                        <th>#</th>
-                        <th>Name</th>
-                        <th>Logo</th>
-                        <th>Action</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                  </tbody>
-                </table>
-              </div>
-              <!-- /.card-body -->
+            <div class="card">
+                <div class="card-header">
+                    <h3 class="card-title">DataTable with default features</h3>
+                </div>
+                <!-- /.card-header -->
+                <div class="card-body">
+                    <table id="example1" class="table table-bordered table-striped">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Unit Name</th>
+                                <th>Unit Description</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach($units as $unit)
+                            <tr>
+                                <td>{{$unit->id}}</td>
+                                <td>{{$unit->unit_name}}</td>
+                                <td>{{$unit->unit_desc}}</td>
+                                <td>
+                                <a href="/admin/unit/{{$unit->id}}/edit" class="btn btn-outline-success rounded-circle btn-sm a_viewbrand " data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                    <i class="fa-regular fa-eye"></i>
+                                </a>
+                                <a href="/admin/unit/{{$unit->id}}/edit" class="btn btn-outline-info rounded-circle btn-sm">
+                                    <i class="fa-regular fa-pen-to-square"></i>
+                                </td>
+                            </tr>
+                            @endforeach
+                        </tbody>
+                    </table>
+                </div>
+                <!-- /.card-body -->
             </div>
         </div>
-    </section>    
+    </section>
 </x-layout>

@@ -14,13 +14,21 @@ class AuthController extends Controller
     
     //3.Method
     public function dashboard(Request $request){
-        //I can check if the user is not directly accesing this page 
-        if(Auth::check()){
-            //every function return something 
-            return view('admin.dashboard');
-        }else{
-            return redirect('/admin');
-        }
+        //brands
+        $brands = \App\Models\Brand::all();
+        //categories
+        $categories = \App\Models\Category::all();
+        //units
+        $units = \App\Models\Unit::all();
+        //products
+        $product = \App\Models\Product::all();
+
+        return view('admin.dashboard',[
+                                            'categories'=>count($categories),
+                                            'brands'=>count($brands),
+                                            'units'=>count($units),
+                                            'products'=>count($product)
+                                      ]);
     
         
     }

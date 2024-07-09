@@ -6,6 +6,7 @@ use App\Http\Controllers\BrandController;
 use App\Http\Controllers\CustomerAuthController;
 use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\ProductController;
+use App\Http\Controllers\SystemInfoController;
 use App\Http\Controllers\UnitController;
 use App\Http\Middleware\AdminAuth;
 use App\Models\Unit;
@@ -95,12 +96,11 @@ Route::get('/home-v3-fullcolor',function(){
   /* backend Routes */
 
 Route::prefix('admin')->middleware(AdminAuth::class)->group(function () { 
-       Route::get('/', function () {
-              return view('admin.login'); //login.blade.php
-       })->withoutMiddleware([AdminAuth::class]);
+       Route::get('/', [SystemInfoController::class,'login'])->withoutMiddleware([AdminAuth::class]);
        Route::get('/login', function () {
               return view('admin.login'); //login.blade.php
        })->withoutMiddleware([AdminAuth::class]);
+
        Route::get('/logout',[AuthController::class,'logout']);
 
        Route::get('/dashboard', [AuthController::class,'dashboard'])->name('admin_dashboard');

@@ -17,7 +17,9 @@
     <body class="hold-transition login-page">
         <div class="login-box">
         <div class="login-logo">
-            <a href="/index2.html"><b>Admin</b>LTE</a>
+            <!-- resources/views/admin/login.blade.php -->
+            <img src="{{('$app_logo') }}">
+
         </div>
         <!-- /.login-logo -->
         <div class="card">

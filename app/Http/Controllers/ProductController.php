@@ -16,6 +16,11 @@ class ProductController extends Controller
     public function index()
     {
         //
+        //1. querybuilder
+        //2. elequent ORM (object relation mapper)
+        $products = Product::all();
+        
+        return view('admin.products.index',['products' => $products]);
     }
 
     /**
@@ -39,6 +44,28 @@ class ProductController extends Controller
     {
         //
         //dd($request->all());
+
+        //1.client side validation
+        //2. server side validation
+        //3. store data in database
+        //4. redirect to the product list page
+
+        //1. client side validation
+        $request->validate([
+            'product_name' => 'required',
+            'product_desc' => 'required',
+            'unit_id' => 'required|integer',
+            'brand_id' => 'required|integer',
+            'category_id' => 'required|integer',
+            'mrp' => 'required|numeric',
+            'sell_price' => 'required|numeric',
+            'qty_available' => 'required|integer',
+            'prod_thumbnail_img' => 'required|mimes:jpeg,png,jpg|max:2048|dimensions:width=212,height=200',
+            'prod_main_img' => 'required|mimes:jpeg,png,jpg|max:2048|dimensions:width=720,height=660',
+            ]);
+
+        //2. server side validation
+        //check if
          
         $data = $request->only('product_name','product_desc','unit_id','brand_id','category_id','mrp','sell_price','qty_available');
 
@@ -65,7 +92,7 @@ class ProductController extends Controller
         $data['prod_main_img'] =$prod_main_img_dst;
 
         Product::create($data);
-        return back();
+        return back()->with('success','Product created successfully');
     }
 
     /**

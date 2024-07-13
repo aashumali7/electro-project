@@ -33,6 +33,7 @@
                                         <th>Product name</th>
                                         <th>Description</th>
                                         <th>Brand</th>
+                                        <th>Category Name</th>
                                         <th>product Thumbnail</th>
                                         <th>Action</th>
                                     </tr>
@@ -43,11 +44,13 @@
                                         <td>{{ $product->id }}</td>
                                         <td>{{ $product->product_name }}</td>
                                         <td>{{ $product->product_desc }}</td>
-                                        <td>{{ optional($product->brand)->brand_name ?? 'N/A' }}</td>
+                                        <td>{{ $product->brand_name}}</td>
+                                        <td>{{ $product->category_name }}</td>
                                         <td>
-                                            <img src="{{ asset('storage/' . $product->prod_thumbnail_img) }}" style="max-width: 100px;">
+                                            <img src="{{ asset($product->prod_thumbnail_img) }}" style="max-width: 80px;">
                                         </td>
                                         <td>
+                                            <a href="{{ route('products.show', $product->id) }}" class="btn btn-sm btn-info">View</a>
                                             <a href="{{ route('products.edit', $product->id) }}" class="btn btn-sm btn-warning">Edit</a>
                                             <form action="{{ route('products.destroy', $product->id) }}" method="POST" style="display:inline-block;">
                                                 @csrf

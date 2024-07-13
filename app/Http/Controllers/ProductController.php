@@ -19,7 +19,12 @@ class ProductController extends Controller
         //1. querybuilder
         //2. elequent ORM (object relation mapper)
         $products = Product::all();
-        
+
+        $products = Product
+        ::join('brands', 'products.brand_id', '=','brands.id')
+        ->join('units','products.unit_id', '=','units.id')
+        ->join('categories','products.category_id', '=','categories.category_id')
+        ->get();
         return view('admin.products.index',['products' => $products]);
     }
 

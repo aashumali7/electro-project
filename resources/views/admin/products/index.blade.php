@@ -39,27 +39,33 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    @foreach($products as $product)
+                                @foreach($products as $product)
                                     <tr>
-                                        <td>{{ $product->id }}</td>
+                                        <td>{{ $product->product_id }}</td>
                                         <td>{{ $product->product_name }}</td>
                                         <td>{{ $product->product_desc }}</td>
-                                        <td>{{ $product->brand_name}}</td>
+                                        <td>{{ $product->brand_name }}</td>
                                         <td>{{ $product->category_name }}</td>
                                         <td>
                                             <img src="{{ asset($product->prod_thumbnail_img) }}" style="max-width: 80px;">
                                         </td>
                                         <td>
-                                            <a href="{{ route('products.show', $product->id) }}" class="btn btn-sm btn-info">View</a>
-                                            <a href="{{ route('products.edit', $product->id) }}" class="btn btn-sm btn-warning">Edit</a>
-                                            <form action="{{ route('products.destroy', $product->id) }}" method="POST" style="display:inline-block;">
+                                            <a href="{{ route('products.show', $product->product_id) }}" class="btn btn-sm btn-info rounded-circle">
+                                                <i class="fa-regular fa-eye"></i>
+                                            </a>
+                                            <a href="{{ route('products.edit', $product->product_id) }}" class="btn btn-sm btn-warning rounded-circle">
+                                                <i class="fa-regular fa-pen-to-square"></i>
+                                            </a>
+                                            <form action="{{ route('products.destroy', $product->product_id) }}" method="POST" style="display:inline-block;">
                                                 @csrf
                                                 @method('DELETE')
-                                                <button type="submit" class="btn btn-sm btn-danger" onclick="return confirm('Are you sure?')">Delete</button>
+                                                <button type="submit" class="btn btn-sm btn-danger rounded-circle" onclick="return confirm('Are you sure?')">
+                                                    <i class="fa-solid fa-trash"></i>
+                                                </button>
                                             </form>
                                         </td>
                                     </tr>
-                                    @endforeach
+                                @endforeach
                                 </tbody>
                             </table>
                         </div>

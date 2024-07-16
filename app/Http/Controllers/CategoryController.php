@@ -112,6 +112,7 @@ class CategoryController extends Controller
         }
         $category->delete();
 
-        return back();
+        return back()->with('success','Category deleted successfully');
+
     }
 }

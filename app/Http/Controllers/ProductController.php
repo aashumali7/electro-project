@@ -7,6 +7,7 @@ use App\Models\Product;
 use App\Models\Brand;
 use App\Models\Unit;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Storage;
 
 class ProductController extends Controller
 {
@@ -116,8 +117,13 @@ class ProductController extends Controller
      */
     public function edit(Product $product)
     {
-        //
+        $brands = Brand::all();
+        $categories = Category::all();
+        $units = Unit::all();
+    
+        return view('admin.products.edit', compact('product', 'brands', 'categories', 'units'));
     }
+    
 
     /**
      * Update the specified resource in storage.
@@ -133,5 +139,28 @@ class ProductController extends Controller
     public function destroy(Product $product)
     {
         //
+        $prod_thumbnail_img_filename = basename($product->prod_thumbnail_img);
+
+        // Define the storage path for the logo
+        $thumbnail_storagePath = 'public/prod_img/' . $prod_thumbnail_img_filename;
+        //dd($storagePath);
+
+        // Check if the file exists and delete it
+        if (Storage::exists( $thumbnail_storagePath)) {
+            Storage::delete( $thumbnail_storagePath);
+        }
+
+        $prod_main_img_filename = basename($product->prod_main_img);
+
+        // Define the storage path for the logo
+        $main_storagePath = 'public/prod_img/' . $prod_main_img_filename;
+        //dd($storagePath);
+
+        // Check if the file exists and delete it
+        if (Storage::exists( $main_storagePath)) {
+            Storage::delete( $main_storagePath);
+        }
+        $product->delete();
+        return back()->with('success','Product deleted successfully');
     }
 }

@@ -121,7 +121,7 @@ class ProductController extends Controller
         $categories = Category::all();
         $units = Unit::all();
     
-        return view('admin.products.edit', compact('product', 'brands', 'categories', 'units'));
+        return view('admin.products.edit', ['product' => $product, 'categories' => $categories,'units' => $units,'brands' => $brands]);
     }
     
 
@@ -131,6 +131,20 @@ class ProductController extends Controller
     public function update(Request $request, Product $product)
     {
         //
+        $product->update($request->all());
+        //return 'update';
+        $product->update([
+            'product_name' => $request->product_name,
+            'product_desc' => $request->product_desc,
+            'unit_id' => $request->unit_id,
+            'brand_id' => $request->brand_id,
+            'category_id' => $request->category_id,
+            'mrp' => $request->mrp,
+            'sell_price' => $request->sell_price,
+            'qty_available' => $request->qty_available
+
+        ]);
+        return back()->with('success','Product updated successfully');
     }
 
     /**

@@ -27,7 +27,7 @@ class ProductController extends Controller
         ->join('categories','products.category_id', '=','categories.category_id')
         ->select('products.id as product_id','products.*','brands.*','units.*','categories.*')
         ->get();
-        return view('admin.products.index',['products' => $products]);
+         return view('admin.products.index', compact('products'));
     }
 
     /**
@@ -130,9 +130,42 @@ class ProductController extends Controller
      */
     public function update(Request $request, Product $product)
     {
-        //
-        $product->update($request->all());
-        //return 'update';
+        //server side validation
+        //$request->validate([])
+
+        // Handle the product thumbnail image
+        $thumbnailDst = $product->prod_thumbnail_img;
+        if ($request->hasFile('prod_thumbnail_img')) {
+            $thumbnailFile = $request->file('prod_thumbnail_img');
+            $thumbnailPath = $thumbnailFile->store('public/prod_img');
+            $thumbnailFilename = basename($thumbnailPath);
+            $thumbnailDst = '/storage/prod_img/' . $thumbnailFilename;
+            // Delete old file
+            if ($product->prod_thumbnail_img) {
+                $oldThumbnailPath = str_replace('/storage', 'public', $product->prod_thumbnail_img);
+                if (Storage::exists($oldThumbnailPath)) {
+                    Storage::delete($oldThumbnailPath);
+                }
+            }
+        }
+
+        // Handle the product main image
+        $mainDst = $product->prod_main_img;
+        if ($request->hasFile('prod_main_img')) {
+            $mainFile = $request->file('prod_main_img');
+            $mainPath = $mainFile->store('public/prod_img');
+            $mainFilename = basename($mainPath);
+            $mainDst = '/storage/prod_img/' . $mainFilename;
+            // Delete old file
+            if ($product->prod_main_img) {
+                $oldMainPath = str_replace('/storage', 'public', $product->prod_main_img);
+                if (Storage::exists($oldMainPath)) {
+                    Storage::delete($oldMainPath);
+                }
+            }
+        }
+
+        // Update the product details
         $product->update([
             'product_name' => $request->product_name,
             'product_desc' => $request->product_desc,
@@ -141,10 +174,11 @@ class ProductController extends Controller
             'category_id' => $request->category_id,
             'mrp' => $request->mrp,
             'sell_price' => $request->sell_price,
-            'qty_available' => $request->qty_available
-
+            'qty_available' => $request->qty_available,
+            'prod_thumbnail_img' => $thumbnailDst,
+            'prod_main_img' => $mainDst,
         ]);
-        return back()->with('success','Product updated successfully');
+        return redirect()->route('products.edit', $product->id)->with('success', 'Product updated successfully');
     }
 
     /**

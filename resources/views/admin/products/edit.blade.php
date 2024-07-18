@@ -148,7 +148,7 @@
                                     <label for="prod_thumbnail_img">Thumbnail Image</label>
                                     <div class="input-group">
                                         <div class="custom-file">
-                                            <input type="file" name="prod_thumbnail_img" class="custom-file-input" id="prod_thumbnail_img">
+                                            <input type="file" name="prod_thumbnail_img" class="custom-file-input" id="prod_thumbnail_img" onchange="previewImage(event, 'thumbnailPreview')">
                                             <label class="custom-file-label" for="prod_thumbnail_img">Choose file</label>
                                         </div>
                                         <div class="input-group-append">
@@ -157,7 +157,11 @@
                                     </div>
                                     @if($product->prod_thumbnail_img)
                                         <div class="mt-2">
-                                            <img src="{{ $product->prod_thumbnail_img }}" alt="Thumbnail" width="100">
+                                            <img src="{{ asset($product->prod_thumbnail_img) }}" id="thumbnailPreview" alt="Thumbnail" width="100">
+                                        </div>
+                                    @else
+                                        <div class="mt-2">
+                                            <img id="thumbnailPreview" alt="Thumbnail Preview" width="100">
                                         </div>
                                     @endif
                                 </div>
@@ -171,7 +175,7 @@
                                     <label for="prod_main_img">Main Image</label>
                                     <div class="input-group">
                                         <div class="custom-file">
-                                            <input type="file" name="prod_main_img" class="custom-file-input" id="prod_main_img">
+                                            <input type="file" name="prod_main_img" class="custom-file-input" id="prod_main_img" onchange="previewImage(event, 'mainPreview')">
                                             <label class="custom-file-label" for="prod_main_img">Choose file</label>
                                         </div>
                                         <div class="input-group-append">
@@ -180,7 +184,11 @@
                                     </div>
                                     @if($product->prod_main_img)
                                         <div class="mt-2">
-                                            <img src="{{ $product->prod_main_img }}" alt="Main Image" width="100">
+                                            <img src="{{ asset($product->prod_main_img) }}" id="mainPreview" alt="Main Image" width="100">
+                                        </div>
+                                    @else
+                                        <div class="mt-2">
+                                            <img id="mainPreview" alt="Main Image Preview" width="100">
                                         </div>
                                     @endif
                                 </div>
@@ -204,4 +212,16 @@
         </div><!-- /.container-fluid -->
     </section>
     <!-- /.content -->
+
+    <!-- Add JavaScript for image preview -->
+    <script>
+        function previewImage(event, previewId) {
+            var reader = new FileReader();
+            reader.onload = function(){
+                var output = document.getElementById(previewId);
+                output.src = reader.result;
+            };
+            reader.readAsDataURL(event.target.files[0]);
+        }
+    </script>
 </x-layout>

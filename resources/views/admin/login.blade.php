@@ -18,7 +18,7 @@
         <div class="login-box">
         <div class="login-logo">
             <!-- resources/views/admin/login.blade.php -->
-            <img src="{{('$app_logo') }}">
+            <img width="200" src="{{$appData['app_logo']}}">
 
         </div>
         <!-- /.login-logo -->

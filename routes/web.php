@@ -5,7 +5,9 @@ use App\Http\Controllers\AuthController;
 use App\Http\Controllers\BrandController;
 use App\Http\Controllers\CustomerAuthController;
 use App\Http\Controllers\CategoryController;
+use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ProductController;
+use App\Http\Controllers\ProductFilterController;
 use App\Http\Controllers\SystemInfoController;
 use App\Http\Controllers\UnitController;
 use App\Http\Middleware\AdminAuth;
@@ -13,22 +15,18 @@ use App\Models\Unit;
 
   /*   Frontend Routes */
 
-Route::get('/', function () {
-    return view('home');
-})->name('homeroute');
+Route::get('/',[HomeController::class,'home'])->name('homeroute');
 
 Route::post('/login',[AuthController::class,'login'])->name('login');
 
 Route::prefix('shop')->group(function () {
+    Route::get('/shop-grid',[ProductFilterController::class,'filter'])->name('shop-grid');
 
     Route::get('/cart',function(){
         return view('shop/cart'); //shop/cart.blade.php
     });
     Route::get('/wishlist',function(){
         return view('shop/wishlist'); //shop-wishlist.blade.php
-    });
-    Route::get('/shop-grid',function(){
-            return view('shop/shop-grid'); //shop-grid.blade.php
     });
     Route::get('/single-product-extend',function(){
             return view('shop/single-product-extend'); //single-product-extend.blade.php

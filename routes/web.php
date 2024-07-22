@@ -21,12 +21,18 @@ Route::post('/login',[AuthController::class,'login'])->name('login');
 
 Route::prefix('shop')->group(function () {
     Route::get('/shop-grid',[ProductFilterController::class,'filter'])->name('shop-grid');
+    Route::get('/shop',function(){
+       return view('shop/shop'); //shop.blade.php
+   });
 
     Route::get('/cart',function(){
         return view('shop/cart'); //shop/cart.blade.php
     });
     Route::get('/wishlist',function(){
         return view('shop/wishlist'); //shop-wishlist.blade.php
+    });
+    Route::get('/single-product-fullwidth',function(){
+        return view('shop/single-product-fullwidth'); //shop-wishlist.blade.php
     });
     Route::get('/single-product-extend',function(){
             return view('shop/single-product-extend'); //single-product-extend.blade.php
@@ -43,9 +49,7 @@ Route::prefix('shop')->group(function () {
     Route::get('/checkout',function(){
             return view('shop/checkout'); //checkout.blade.php
     });
-    Route::get('/shop',function(){
-            return view('shop/shop'); //shop.blade.php
-    });
+    
 });
 
 Route::get('/about',function(){

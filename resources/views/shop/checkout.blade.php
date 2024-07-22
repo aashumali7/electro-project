@@ -1,5 +1,5 @@
-@extends('layouts.app')
-@section('main')
+@extends('layouts.common')
+@section('common_content')
 <main id="content" role="main" class="checkout-page">
     <!-- breadcrumb -->
     <div class="bg-gray-13 bg-md-transparent">

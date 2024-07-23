@@ -14,11 +14,19 @@ class ProductFilterController extends Controller
     //3. Method
    
     public function filter(){
-        $brands = DB::table('brands')
-        ->leftJoin('products', 'brands.id', '=', 'products.brand_id')
-        /* ->select('brands.*', DB::raw('COUNT(products.id) as products_count'))
-        ->groupBy('brands.id') */
+        $products = DB::table('products')
+        ->join('brands', 'products.brand_id', '=', 'brands.id')
+        ->join('categories', 'products.category_id', '=', 'categories.category_id')
         ->get();
-        return view('shop/shop-grid',['brands'=>$brands]);
+
+        $brands = DB::table('products')
+        ->select('brands.brand_name', DB::raw('COUNT(*) as productCount'))
+        ->join('brands', 'products.brand_id', '=', 'brands.id')
+        ->groupBy('products.brand_id', 'brands.brand_name')
+        ->get();
+        return view('shop/shop-grid',[
+                                        'brands'=>$brands,
+                                        'products'=>$products
+                                     ]);
     }
 }

@@ -21,6 +21,7 @@ Route::post('/login',[AuthController::class,'login'])->name('login');
 
 Route::prefix('shop')->group(function () {
     Route::get('/shop-grid',[ProductFilterController::class,'filter'])->name('shop-grid');
+    
     Route::get('/shop',function(){
        return view('shop/shop'); //shop.blade.php
    });

@@ -3,7 +3,7 @@
     <head>
         <meta http-equiv="content-type" content="text/html;charset=utf-8" />
         <!-- Title -->
-        <title>Home-v1 | Electro - Responsive Website Template</title>
+        <title>{{$appData['app_description']}}</title>
 
         <!-- Required Meta Tags Always Come First -->
         <meta charset="utf-8">
@@ -11,7 +11,7 @@
         
         <link rel="stylesheet" href="/assets/vendor/bootstrap-select/dist/css/bootstrap-select.min.css">
         <!-- Favicon -->
-        <link rel="shortcut icon" href="/favicon.png">
+        <link rel="shortcut icon" href="{{$appData['app_small_logo']}}">
 
         <!-- Google Fonts -->
         <link

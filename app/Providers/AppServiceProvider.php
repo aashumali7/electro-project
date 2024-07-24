@@ -33,6 +33,9 @@ class AppServiceProvider extends ServiceProvider
         $social_google_url = SystemInfo::where('meta_name', 'social_google_url')->first()->meta_value;
         $social_x_url = SystemInfo::where('meta_name', 'social_x_url')->first()->meta_value;
         $social_github_url = SystemInfo::where('meta_name', 'social_github_url')->first()->meta_value;
+        $support_email_address = SystemInfo::where('meta_name', 'support_email_address')->first()->meta_value;
+        $app_description = SystemInfo::where('meta_name', 'app_description')->first()->meta_value;
+        $app_small_logo = SystemInfo::where('meta_name', 'app_small_logo')->first()->meta_value;
 
         $data = [
             'app_name' => $app_name,
@@ -44,7 +47,10 @@ class AppServiceProvider extends ServiceProvider
             'social_fb_url' => $social_fb_url,
             'social_google_url' => $social_google_url,
             'social_x_url' => $social_x_url,
-            'social_github_url' => $social_github_url
+            'social_github_url' => $social_github_url,
+            'support_email_address' => $support_email_address,
+            'app_description' => $app_description,
+            'app_small_logo' => $app_small_logo
         ]; 
 
         // Share data with all views

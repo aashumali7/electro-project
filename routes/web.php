@@ -17,6 +17,9 @@ use App\Models\Unit;
 
 Route::get('/',[HomeController::class,'home'])->name('homeroute');
 
+Route::get('/{slug}', [HomeController::class, 'show'])->name('home.show');
+
+
 Route::post('/login',[AuthController::class,'login'])->name('login');
 
 Route::prefix('shop')->group(function () {

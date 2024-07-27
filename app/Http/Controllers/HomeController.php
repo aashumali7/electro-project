@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Category;
 use App\Models\Product;
-use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class HomeController extends Controller
 {
@@ -21,6 +21,17 @@ class HomeController extends Controller
     public function show($slug){
         //dd($slug);
         $product = Product::where('slug',$slug)->first();
-        return view('shop/single-product-fullwidth',['product'=>$product]);
+        $customerReviewCount = DB::table('reviews')
+        ->where('product_id',$product->id)
+        ->count();
+  
+        $avearageRating = DB::table('reviews')
+        ->where('product_id',$product->id)
+        ->avg('rating');
+        return view('shop/single-product-fullwidth',[
+                                                        'product'=>$product,
+                                                        'customerReviewCount'=>$customerReviewCount,
+                                                        'avearageRating'=>$avearageRating
+                                                    ]);
     }
 }

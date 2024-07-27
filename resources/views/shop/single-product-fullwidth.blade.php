@@ -78,6 +78,7 @@
                             <h2 class="font-size-25 text-lh-1dot2">{{$product->product_name}}</h2>
                             <div class="mb-2">
                                 <a class="d-inline-flex align-items-center small font-size-15 text-lh-1" href="#">
+                                    {{$avearageRating}}
                                     <div class="text-warning mr-2">
                                         <small class="fas fa-star"></small>
                                         <small class="fas fa-star"></small>
@@ -85,7 +86,7 @@
                                         <small class="fas fa-star"></small>
                                         <small class="far fa-star text-muted"></small>
                                     </div>
-                                    <span class="text-secondary font-size-13">(3 customer reviews)</span>
+                                    <span class="text-secondary font-size-13">({{$customerReviewCount}} customer reviews)</span>
                                 </a>
                             </div>
                             <div class="d-md-flex align-items-center">

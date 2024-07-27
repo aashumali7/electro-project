@@ -16,12 +16,28 @@ class DatabaseSeeder extends Seeder
     {
         // User::factory(10)->create();
 
-        User::factory()->create([
-            'name' => 'Aashu',
-            'surname' => 'Mali',
-            'email' => 'Aashish2@gmail.com',
-            'password' => 'Aashish2@gmail.com',
-            'role' => 'admin'
+        User::insert([
+            [
+                'name' => 'Aashu',
+                'surname' => 'Mali',
+                'email' => 'Aashish2@gmail.com',
+                'password' => 'Aashish2@gmail.com',
+                'role' => 'admin'
+            ],    
+            [
+                'name' => 'Aashish',
+                'surname' => 'Mali',
+                'email' => 'Aashish@gmail.com',
+                'password' => 'Aashish@gmail.com',
+                'role' => 'customer'
+            ],    
+            [
+                'name' => 'Rohit',
+                'surname' => 'Mali',
+                'email' => 'Rohit@gmail.com',
+                'password' => 'Rohit@gmail.com',
+                'role' => 'customer2'
+            ]   
         ]);
         
         //elequent orm method

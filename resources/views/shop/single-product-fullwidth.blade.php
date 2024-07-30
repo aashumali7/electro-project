@@ -49,6 +49,7 @@
                         </div>
                     </div>
 
+                    {{$product->prod_gallery_imgs}}
                     <div id="sliderSyncingThumb" class="js-slick-carousel u-slick u-slick--slider-syncing u-slick--slider-syncing-size u-slick--gutters-1 u-slick--transform-off"
                         data-infinite="true"
                         data-slides-show="5"
@@ -74,23 +75,26 @@
                 <div class="col-md-7 mb-md-6 mb-lg-0">
                     <div class="mb-2">
                         <div class="border-bottom mb-3 pb-md-1 pb-3">
-                            <a href="#" class="font-size-12 text-gray-5 mb-2 d-inline-block">Headphones</a>
+                            <a href="#" class="font-size-12 text-gray-5 mb-2 d-inline-block">{{$product->category_name}}</a>
                             <h2 class="font-size-25 text-lh-1dot2">{{$product->product_name}}</h2>
                             <div class="mb-2">
                                 <a class="d-inline-flex align-items-center small font-size-15 text-lh-1" href="#">
-                                    {{$avearageRating}}
                                     <div class="text-warning mr-2">
-                                        <small class="fas fa-star"></small>
-                                        <small class="fas fa-star"></small>
-                                        <small class="fas fa-star"></small>
-                                        <small class="fas fa-star"></small>
-                                        <small class="far fa-star text-muted"></small>
+                                        @for ($i= 1; $i <=5; $i++)
+                                            @if ($i <= $avearageRating)
+                                                <small class="fas fa-star"></small>
+                                            @else
+                                                  <small class="far fa-star text-muted"></small>
+                                            @endif
+                                        @endfor
                                     </div>
+                                    {{$avearageRating}} &nbsp;
                                     <span class="text-secondary font-size-13">({{$customerReviewCount}} customer reviews)</span>
                                 </a>
                             </div>
                             <div class="d-md-flex align-items-center">
-                                <a href="#" class="max-width-150 ml-n2 mb-2 mb-md-0 d-block"><img class="img-fluid" src="../../assets/img/200X60/img1.png" alt="Image Description"></a>
+                                <a href="#" class="max-width-150 ml-n2 mb-2 mb-md-0 d-block">Brand:- {{$product->brand_name}} <img width = '110'  class="{{$product->brand_logo}}" alt="Image Description"></a>
+                                <a href="#" class="max-width-150  mb-2 mb-md-0 d-block">Seller:- {{$product->seller_name}} <img width = '110' class="img-fluid" src="../../assets/img/200X60/img1.png" alt="Image Description"></a>
                                 <div class="ml-md-3 text-gray-9 font-size-14">Availability: <span class="text-green font-weight-bold">{{$product->qty_available}} In Stock</span></div>
                             </div>
                         </div>

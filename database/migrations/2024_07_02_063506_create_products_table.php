@@ -20,11 +20,13 @@ return new class extends Migration
             $table->string('brand_id');
             $table->string('unit_id');
             $table->string('category_id');
+            $table->string('seller_id');
             $table->string('mrp');
             $table->string('sell_price');
             $table->string('qty_available');
             $table->string('prod_thumbnail_img')->nullable();
             $table->string('prod_main_img')->nullable();
+            $table->text('prod_gallery_imgs')->nullable();
             $table->timestamps();
         });
     }

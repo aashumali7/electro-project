@@ -49,27 +49,18 @@
                         </div>
                     </div>
 
-                    {{$product->prod_gallery_imgs}}
+                    
                     <div id="sliderSyncingThumb" class="js-slick-carousel u-slick u-slick--slider-syncing u-slick--slider-syncing-size u-slick--gutters-1 u-slick--transform-off"
                         data-infinite="true"
                         data-slides-show="5"
                         data-is-thumbs="true"
                         data-nav-for="#sliderSyncingNav">
-                        <div class="js-slide" style="cursor: pointer;">
-                            <img class="img-fluid" src="/assets/img/720X660/img1.jpg" alt="Image Description">
-                        </div>
-                        <div class="js-slide" style="cursor: pointer;">
-                            <img class="img-fluid" src="/assets/img/720X660/img2.jpg" alt="Image Description">
-                        </div>
-                        <div class="js-slide" style="cursor: pointer;">
-                            <img class="img-fluid" src="/assets/img/720X660/img3.jpg" alt="Image Description">
-                        </div>
-                        <div class="js-slide" style="cursor: pointer;">
-                            <img class="img-fluid" src="/assets/img/720X660/img4.jpg" alt="Image Description">
-                        </div>
-                        <div class="js-slide" style="cursor: pointer;">
-                            <img class="img-fluid" src="/assets/img/720X660/img5.jpg" alt="Image Description">
-                        </div>
+                        <!-- {{gettype(json_decode($product->prod_gallery_imgs))}} -->
+                        @foreach(json_decode(json_decode($product->prod_gallery_imgs)) as $key => $value)
+                            <div class="js-slide" style="cursor: pointer;">
+                                <img class="img-fluid" src="{{$value}}" alt="Image Description">
+                            </div>
+                        @endforeach
                     </div>
                 </div>
                 <div class="col-md-7 mb-md-6 mb-lg-0">

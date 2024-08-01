@@ -5,6 +5,7 @@ use App\Http\Controllers\AuthController;
 use App\Http\Controllers\BrandController;
 use App\Http\Controllers\CustomerAuthController;
 use App\Http\Controllers\CategoryController;
+use App\Http\Controllers\ChatController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\ProductFilterController;
@@ -18,6 +19,7 @@ use App\Models\Unit;
 Route::get('/',[HomeController::class,'home'])->name('homeroute');
 
 Route::get('/{slug}', [HomeController::class, 'show'])->name('home.show');
+Route::get('/chat/chat', [ChatController::class, 'chat']);
 
 
 Route::post('/login',[AuthController::class,'login'])->name('login');

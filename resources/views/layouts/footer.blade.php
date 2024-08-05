@@ -1,6 +1,6 @@
 <footer>
     <!-- Footer-top-widget -->
-    <div class="container d-none d-lg-block mb-3">
+    <!-- <div class="container d-none d-lg-block mb-3">
         <div class="row">
             <div class="col-wd-3 col-lg-4">
                 <div class="widget-column">
@@ -192,7 +192,7 @@
                         class="img-fluid" src="/assets/img/330X360/img1.jpg" alt="Image Description"></a>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- End Footer-top-widget -->
     <!-- Footer-newsletter -->
     <div class="bg-primary py-3">

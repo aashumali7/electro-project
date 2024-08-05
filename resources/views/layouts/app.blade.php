@@ -32,7 +32,10 @@
         <link rel="stylesheet" href="/assets/css/theme.css">
         <style>
             /* css code */ 
-            </style>
+            .a_cc_chat{
+                font-size: 2em;
+            }
+        </style>
     </head>
     <body>
 
@@ -244,6 +247,27 @@
             //xhro = xml http request object
 
             
+        </script>
+        <script>
+            //chatform coding
+            console.log(document.querySelector('form#chatForm'))
+            document
+                .querySelector('form#chatForm')
+                .addEventListener('submit', function(e){
+                    e.preventDefault();
+                    console.log('hello');
+                    console.log(document.querySelector('input.chatInput').value);
+                    var x = document.querySelector('input.chatInput').value;
+                    document.querySelector('.chatCard .card-body').innerHTML += `<span class="clearfix mb-1 mt-1">
+                                                                                    <span class="badge text-white float-right a_cc_chat bg-warning">${x}</span>
+                                                                                </span>`;
+
+                    document.querySelector('input.chatInput').value = '';
+            });
+            document.querySelector('input.chatInput').addEventListener('keydown', function(e){
+                //console.log('hello',e.target.value);
+
+            });
         </script>
     </body>
 </html>

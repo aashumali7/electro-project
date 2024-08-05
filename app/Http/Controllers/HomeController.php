@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use App\Models\Category;
 use App\Models\Product;
 use Illuminate\Support\Facades\DB;
+use App\Models\Review;
+use App\Models\Review as ModelsReview;
 
 class HomeController extends Controller
 {
@@ -34,15 +36,49 @@ class HomeController extends Controller
         $avearageRating = DB::table('reviews')
         ->where('product_id',$product->id)
         ->avg('rating');
+
+        $reviews = Review::where('product_id',$product->id)
+        ->where('users.role', '=', 'customer')
+        ->join('products','products.id','=','reviews.product_id')
+        ->join('users','users.id','=','reviews.customer_id')
+        ->select( 'reviews.reviewContent','reviews.rating','reviews.created_at','users.name','users.surname','users.role') 
+        ->get();
         
         $product_gallery_images = Product::join('product_gallery_images', 'products.id', '=', 'product_gallery_images.product_id')
         ->get();
+
+        $rating5 = DB::table('reviews')
+        ->where('product_id', $product->id)
+        ->where('rating', 5)
+        ->count();
+        $rating4 = DB::table('reviews')
+        ->where('product_id', $product->id)
+        ->where('rating', 4)
+        ->count();
+        $rating3 = DB::table('reviews')
+        ->where('product_id', $product->id)
+        ->where('rating', 3)
+        ->count();
+        $rating2 = DB::table('reviews')
+        ->where('product_id', $product->id)
+        ->where('rating', 2)
+        ->count();
+        $rating1 = DB::table('reviews')
+        ->where('product_id', $product->id)
+        ->where('rating', 1)
+        ->count();
 
         return view('shop/single-product-fullwidth',[
                                                         'product'=>$product,
                                                         'product_gallery_images'=>$product_gallery_images,
                                                         'customerReviewCount'=>$customerReviewCount,
-                                                        'avearageRating'=>$avearageRating
+                                                        'avearageRating'=>$avearageRating,
+                                                        'reviews'=>$reviews,
+                                                        'rating5'=>$rating5,
+                                                        'rating4'=>$rating4,
+                                                        'rating3'=>$rating3,
+                                                        'rating2'=>$rating2,
+                                                        'rating1'=>$rating1
                                                     ]);
     }
 }

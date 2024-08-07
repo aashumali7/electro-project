@@ -18,7 +18,7 @@
                 <!-- Content -->
                 <div class="js-scrollbar u-sidebar__body">
                     <div class="u-sidebar__content u-header-sidebar__content">
-                        <form class="js-validate" method="GET" action="">
+                        <form class="js-validate" method="POST" action="{{route('customerLogin')}}">
                             @csrf
                             <!-- Login -->
                             <div id="login" data-target-group="idForm">

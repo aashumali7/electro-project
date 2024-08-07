@@ -64,6 +64,7 @@ class CustomerAuthController extends Controller
                                                         'lastname' => $user->surname
                                                     ]
                                         ]);
+                                        return back()->with('success', 'You Have A Successfully Logged In')
             }else{
                 return response()->json(['failed' => 'Invalid credentials'],403);
             }

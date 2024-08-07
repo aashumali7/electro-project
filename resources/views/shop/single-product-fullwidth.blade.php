@@ -26,27 +26,15 @@
         <div class="mb-xl-14 mb-6">
             <div class="row">
                 <div class="col-md-5 mb-4 mb-md-0">
-                    <div id="sliderSyncingNav" class="js-slick-carousel u-slick mb-2"
+                     <div id="" class="js-slick-carousel u-slick mb-2"
                         data-infinite="true"
                         data-arrows-classes="d-none d-lg-inline-block u-slick__arrow-classic u-slick__arrow-centered--y rounded-circle"
                         data-arrow-left-classes="fas fa-arrow-left u-slick__arrow-classic-inner u-slick__arrow-classic-inner--left ml-lg-2 ml-xl-4"
                         data-arrow-right-classes="fas fa-arrow-right u-slick__arrow-classic-inner u-slick__arrow-classic-inner--right mr-lg-2 mr-xl-4"
                         data-nav-for="#sliderSyncingThumb">
-                        <div class="js-slide">
-                            <img class="img-fluid" src="/assets/img/720X660/img1.jpg" alt="Image Description">
-                        </div>
-                        <div class="js-slide">
-                            <img class="img-fluid" src="/assets/img/720X660/img2.jpg" alt="Image Description">
-                        </div>
-                        <div class="js-slide">
-                            <img class="img-fluid" src="/assets/img/720X660/img3.jpg" alt="Image Description">
-                        </div>
-                        <div class="js-slide">
-                            <img class="img-fluid" src="/assets/img/720X660/img4.jpg" alt="Image Description">
-                        </div>
-                        <div class="js-slide">
-                            <img class="img-fluid" src="/assets/img/720X660/img5.jpg" alt="Image Description">
-                        </div>
+                        <a href="#" class="js-slide gallery-viewer">
+                            <img id="zoom_10" class="img-fluid" src="/assets/img/720X660/img1.jpg" alt="Image Description">
+                        </a>
                     </div>
 
                     

@@ -25,7 +25,11 @@
         <link rel="stylesheet" href="/assets/vendor/animate.css/animate.min.css">
         <link rel="stylesheet" href="/assets/vendor/hs-megamenu/src/hs.megamenu.css">
         <link rel="stylesheet" href="/assets/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css">
+
         <link rel="stylesheet" href="/assets/vendor/fancybox/jquery.fancybox.css">
+        <link rel="stylesheet" href="/assets/css/zoom/jquery.fancybox-thumbs.css">
+        <link rel="stylesheet" href="/assets/css/zoom/zoom.css">
+
         <link rel="stylesheet" href="/assets/vendor/slick-carousel/slick/slick.css">
 
         <!-- CSS Electro Template -->
@@ -66,6 +70,13 @@
 
         <!-- JS Global Compulsory -->
         <script src="/assets/vendor/jquery/dist/jquery.min.js"></script>
+        <script src="/assets/js/zoom/jquery-ui.min.js"></script>
+        <script src="/assets/vendor/fancybox/jquery.fancybox.min.js"></script>
+        <script src="/assets/js/zoom/jquery.elevatezoom.js"></script>
+        <script src="/assets/js/zoom/panZoom.js"></script>
+        <script src="/assets/js/zoom/ui-carousel.js"></script>
+        <script src="/assets/js/zoom/zoom.js"></script>
+
         <script src="/assets/vendor/jquery-migrate/dist/jquery-migrate.min.js"></script>
         <script src="/assets/vendor/popper.js/dist/umd/popper.min.js"></script>
         <script src="/assets/vendor/bootstrap/bootstrap.min.js"></script>
@@ -77,7 +88,7 @@
         <script src="/assets/vendor/svg-injector/dist/svg-injector.min.js"></script>
         <script src="/assets/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>
         <script src="/assets/vendor/jquery-validation/dist/jquery.validate.min.js"></script>
-        <script src="/assets/vendor/fancybox/jquery.fancybox.min.js"></script>
+       
         <script src="/assets/vendor/typed.js/lib/typed.min.js"></script>
         <script src="/assets/vendor/slick-carousel/slick/slick.js"></script>
         <script src="/assets/vendor/bootstrap-select/dist/js/bootstrap-select.min.js"></script>

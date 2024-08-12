@@ -48,7 +48,11 @@ class CustomerAuthController extends Controller
     }
 
     public function login(Request $request){
-
+        //dd($request->all());
+        /* $request->validate([
+            'email'=>'required|email:users',
+            'password'=>'required|min:3|max:25'
+        ]); */
         $user = User::where('email','=',$request->email)->first();
         //return $user;
         $credentials = $request->only('email','password');
@@ -57,20 +61,12 @@ class CustomerAuthController extends Controller
             if (Auth::attempt($credentials)) {
                 session(['firstname' => $user->name]);//Associative array ['key'=>'value']
                 session(['lastname' => $user->surname]);
-                return response()->json([
-                                            'success' => 'You have logged successfully.',
-                                            'data'=>[
-                                                        'firstname'=>$user->name,
-                                                        'lastname' => $user->surname
-                                                    ]
-                                        ]);
-                                        return back()->with('success', 'You Have A Successfully Logged In')
+                return back()->with('success','You have Logged in successfully.');
             }else{
-                return response()->json(['failed' => 'Invalid credentials'],403);
+                return back()->with('failed','Invalid Credentials.');
             }
         }else{
-            return response()->json(['failed' => 'Invalid credentials'],403);
-       
+            return back()->with('failed','Invalid Credentials.');
         }
     }
 }
